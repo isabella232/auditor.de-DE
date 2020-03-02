@@ -1,6 +1,6 @@
 ---
 source-git-commit: 525ab6768a5f4e3af5dfe751bd0669bf92954f92
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Beitragen
@@ -23,7 +23,7 @@ Für alle Drittanbieterbeiträge zu diesem Projekt muss eine signierte Lizenzver
 
 ## Codeüberprüfungen
 
-Alle Übermittlungen sollten in Form von Pull-Anfragen eingehen und müssen von den Projektverantwortlichen geprüft werden. In der [GitHub-Dokumentation zu Pull-Anfragen](https://help.github.com/articles/about-pull-requests/)
+Alle Übermittlungen sollten in Form von Pull-Anfragen eingehen und müssen von den Projektverantwortlichen geprüft werden. In der [GitHub-Dokumentation zu Pull-Anfragen](https://help.github.com/de/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 finden Sie weitere Informationen zum Senden von Pull-Anfragen.
 
 <!--
@@ -37,4 +37,4 @@ Wir lieben Beiträge aus unserer Community. Wenn Sie den Schritt über die Rolle
 
 ## Sicherheitsprobleme
 
-Sicherheitsprobleme sollten in diesem Problemtracker nicht gemeldet werden. Reichen Sie [Probleme stattdessen bei unseren Sicherheitsexperten ein.](https://helpx.adobe.com/security/alertus.html)
+Sicherheitsprobleme sollten in diesem Problemtracker nicht gemeldet werden. Reichen Sie [Probleme stattdessen bei unseren Sicherheitsexperten ein.](https://helpx.adobe.com/de/security/alertus.html)
