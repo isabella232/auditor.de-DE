@@ -2,15 +2,15 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Auditor FAQs
-title: Häufig gestellte Fragen zum Prüfer
+title: Auditor-FAQ
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# Häufig gestellte Fragen zum Prüfer{#auditor-faq}
+# Auditor-FAQ {#auditor-faq}
 
 Dieser Artikel enthält Antworten auf häufig gestellte Fragen zu Adobe Experience Platform Auditor.
 
@@ -22,19 +22,19 @@ Dieser Artikel enthält Antworten auf häufig gestellte Fragen zu Adobe Experien
 * [Wie lange dauert eine Prüfung?](auditor-faq.md#section-5086ae27ef1f4671a9d951348654633a)
 * [Welche Informationen enthält ein Bericht?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [Wie umsetzbar sind diese Informationen?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
-* [Kann der Prüfer die Nicht-Adobe-Technologie prüfen?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [Kann ich meine IP-Adressen auf eine weiße Liste setzen, um Scannerseiten zuzulassen...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
-* [Verwendet Auditor dieselben IP-Bereiche wie Observepoint?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
+* [Kann Auditor Nicht-Adobe-Technologie prüfen?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
+* [Kann ich meine IP-Adressen auf eine Positivliste setzen, um das Prüfen von Seiten zuzulassen …](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [Verwendet Auditor dieselben IP-Bereiche wie ObservePoint?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## Was ist Auditor? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
 
-Auditor ist ein Dienst der Adobe Experience Cloud, der gemeinsam mit ObservePoint, Experten für die Validierung digitaler Implementierungen, entwickelt wurde.
+Auditor ist ein Dienst der Adobe Experience Cloud, der gemeinsam mit ObservePoint – den Experten für die Validierung digitaler Implementierungen – entwickelt wurde.
 
-Mit Auditor können Kunden bis zu 500 Webseiten gleichzeitig scannen und einen Bericht erhalten, der zeigt, wie sie ihre Adobe Experience Cloud-Implementierungen verbessern können, sodass sie den vollen Wert ihrer Adobe-Investition erhalten.
+Mit Auditor können Kunden bis zu 500 Webseiten gleichzeitig prüfen und einen Bericht erzeugen, der zeigt, wie sie ihre Adobe Experience Cloud-Implementierungen verbessern können, sodass sie das gesamte Potenzial ihrer Adobe-Investition nutzen können.
 
-## Kann ich Auditor verwenden? {#section-f90094050d1e44929066a942833435cf}
+## Bin ich berechtigt, Auditor zu verwenden? {#section-f90094050d1e44929066a942833435cf}
 
-Alle Adobe Experience Cloud-Kundenorganisationen erhalten kostenlosen Zugriff auf Auditor (ab 1. Mai 2018). Jeder Benutzer muss die Nutzungsbedingungen von Adobe/ObservePoint in der Benutzeroberfläche von Adobe Experience Cloud akzeptieren, bevor er auf die Funktion zugreifen kann. Wenden Sie sich an Ihren Kundenbetreuer, um die Bedingungen abzuwählen.
+Alle Adobe Experience Cloud-Kundenorganisationen erhalten (ab 1. Mai 2018) kostenlosen Zugriff auf Auditor. Jeder Benutzer muss die Nutzungsbedingungen von Adobe/ObservePoint in der Benutzeroberfläche von Adobe Experience Cloud akzeptieren, bevor auf die Funktion zugegriffen werden kann. Wenden Sie sich an Ihren Kundenbetreuer, um die Bedingungen abzuwählen.
 
 ## Wie greife ich auf Auditor zu? {#section-531ff85f94384831a89cbb4109549daf}
 
@@ -46,10 +46,10 @@ Nach der Anmeldung bei [https://experiencecloud.adobe.com](https://experienceclo
 * Advertising Cloud Search
 * Analytics
 * DTM
-* Experience Cloud ID-Dienst (früher Marketing Cloud ID-Dienst)
+* Experience Cloud ID-Service (früher Marketing Cloud ID-Service)
 * Target
 
-Die folgenden Adobe-Lösungen sind derzeit nicht in der Testrubrik enthalten. Die Unterstützung für diese Lösungen ist für zukünftige Updates geplant.
+Folgende Adobe-Lösungen sind derzeit nicht in der Testrubrik enthalten. Die Unterstützung für diese Lösungen ist für zukünftige Updates geplant.
 
 * Advertising Cloud Creative
 * Audience Manager
@@ -58,7 +58,7 @@ Die folgenden Adobe-Lösungen sind derzeit nicht in der Testrubrik enthalten. Di
 
 ## Wie viele Prüfungen kann ich durchführen? {#section-caac1e50ce1249aeba76308f3ef03fa0}
 
-Die Anzahl der Prüfungen, die Sie durchführen können, ist unbegrenzt. Benutzer sind auf eine Prüfung beschränkt, die gleichzeitig ausgeführt wird. Es tritt ein Fehler auf, wenn Sie versuchen, eine Prüfung mit denselben Einstellungen wie die ausgeführte zu starten.
+Die Zahl der Prüfungen, die Sie durchführen können, ist nicht beschränkt. Benutzer können jeweils nur eine Prüfung zur selben Zeit durchführen. Wenn Sie versuchen, eine Prüfung mit denselben Einstellungen wie die bereits ausgeführte zu starten, tritt ein Fehler auf.
 
 ## Was wird für eine Prüfung durchsucht? {#section-6d068ed69ece4a1bb6d0c34454550c45}
 
@@ -74,27 +74,27 @@ Es gibt viele Faktoren, die dazu beitragen, dass eine Prüfung abgeschlossen wer
 
 * Seitenladezeit
 
-   Die ObservePoint-Engine lädt jede Seite der Prüfung in einen Browser. Je schneller eine Seite geladen wird, desto schneller erfolgt die Prüfung.
+   Die ObservePoint-Engine lädt jede Seite der Prüfung in einem Browser. Je schneller eine Seite geladen wird, desto schneller erfolgt die Prüfung.
 * Gleichzeitige Verbindungen
 
-   Adobe Auditor verwendet eine einzelne Verbindung, um jede Seite zu besuchen. Vollständige ObservePoint-Konten verwenden bis zu 10 Motoren auf einmal.
+   Adobe Auditor verwendet eine einzige Verbindung, um die einzelnen Seiten zu besuchen. Vollständige ObservePoint-Konten verwenden bis zu 10 Engines gleichzeitig.
 * Netzwerkstille
 
-   Nachdem jede Seite geladen wurde, wartet die Prüfung auf eine Netzwerkstille von sieben Sekunden, bevor die nächste Seite aufgerufen wird. Wenn eine Seite viele Netzwerkanforderungen sendet, die nach dem Laden der Seite auftreten, wird nach 60 Sekunden ein Timeout für die Wartezeit ausgeführt.
-* Seitenaufrufe
+   Nachdem jede Seite geladen wurde, wartet die Prüfung auf eine Netzwerkstille von sieben Sekunden, bevor die nächste Seite aufgerufen wird. Wenn eine Seite viele Netzwerkanforderungen sendet, die nach dem Laden der Seite auftreten, tritt nach 60 Sekunden ein Timeout für die Wartezeit auf.
+* Erneute Seitenverbindungsversuche
 
-   Wenn eine Seite oder ein Tag nicht gefunden werden kann, speichert die Prüfung diese URL und kehrt später im Audit zurück. Die Prüfung besucht bis zu dreimal eine Seite, um sicherzustellen, dass der Fehler nicht durch ein vorübergehendes Problem verursacht wurde.
+   Wenn eine Seite oder ein Tag nicht gefunden werden kann, speichert die Prüfung diese URL und kehrt später in der Prüfung dazu zurück. Die Prüfung besucht eine Seite bis zu dreimal, um sicherzustellen, dass der Fehler nicht durch ein vorübergehendes Problem verursacht wurde.
 * Verarbeitung
 
-   Nachdem eine Prüfung ausgeführt wurde, werden alle erfassten Daten verarbeitet und durch die Regeln gefiltert. Diese Verarbeitungszeit ist erheblich, allerdings dauert sie nicht so viel Zeit wie der Scan selbst.
+   Nachdem eine Prüfung ausgeführt wurde, werden alle erfassten Daten verarbeitet und durch die Regeln gefiltert. Diese Verarbeitung nimmt sehr viel Zeit in Anspruch, allerdings nicht so viel wie die Prüfung selbst.
 
 >[!NOTE]
 >
->Adobe Auditor führt jeweils eine einzige Überprüfung aus. Volle ObservePoint-Konten können viele Prüfungen nacheinander ausführen.
+>Adobe Auditor führt jeweils eine einzige Prüfung aus. Vollständige ObservePoint-Konten können viele Prüfungen nacheinander ausführen.
 
 ## Welche Informationen enthält ein Bericht? {#section-752d6b82f6744a3182c4ce16ea6b5d3f}
 
-Jeder Scan generiert einen Bericht, der anzeigt, welche URLs gescannt wurden, welche Probleme auf diesen Webseiten gefunden wurden und wie die gefundenen Probleme zu beheben sind.
+Bei jeder Prüfung wird ein Bericht generiert, der anzeigt, welche URLs geprüft, welche Probleme auf diesen Webseiten gefunden wurden und wie die gefundenen Probleme zu beheben sind.
 
 Die Ergebnisse von Prüfungen werden in drei Kategorien unterteilt:
 
@@ -106,32 +106,32 @@ Zusätzlich zu diesen drei Kategorien enthält der Bericht Warnungen mit Informa
 
 Die Empfehlungen, die in diese Kategorien fallen, werden dann in drei weitere Kategorien unterteilt:
 
-* Sehr empfohlen
+* Dringend empfohlen
 * Empfohlen
-* Übergeben
+* Bestanden
 
 ## Wie umsetzbar sind diese Informationen? {#section-9308c1ea882048b781087ae6d2eee9f0}
 
-Alle Empfehlungen von Auditor sollen Ihnen dabei helfen, ein Problem bei der Implementierung von Adobe Experience Cloud-Lösungen wie DTM oder Target zu beheben. Um dies zu erleichtern, hat das Auditor-Team intensiv daran gearbeitet, sehr detaillierte Anweisungen darüber zu geben, was dort getan werden muss. Sie können eine Tabelle mit allen gescannten URLs und allen Testergebnissen exportieren, um problematische Bereiche einfach zu identifizieren. Hier ein Beispiel für eine Empfehlung für eine DTM-Implementierung:
+Alle Empfehlungen von Auditor sollen Ihnen dabei helfen, ein Problem bei der Implementierung von Adobe Experience Cloud-Lösungen wie DTM oder Target zu beheben. Um dies zu erleichtern, hat das Auditor-Team intensiv daran gearbeitet, sehr detaillierte Anweisungen darüber zu geben, was an welcher Stelle unternommen werden muss. Sie können eine Tabelle mit allen geprüften URLs und allen Testergebnissen exportieren, um problematische Bereiche einfach zu identifizieren. Hier ein Beispiel für eine Empfehlung zur DTM-Implementierung:
 
 <table id="table_EE67775088344BDAA5126268072D6089"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>pageBottom-Rückruf zuletzt</b> </p> <p>Für eine korrekte DTM-Implementierung ist eine Funktion _satellite.pageBottom() erforderlich. Fügen Sie das Inline-Skript unmittelbar vor dem schließenden &lt;/body&gt;-Tag hinzu, um eine ordnungsgemäße DTM-Funktionalität sicherzustellen. </p> </td> 
+   <td colname="col1"> <p><b>pageBottom callback last</b> </p> <p>Für eine korrekte DTM-Implementierung ist die Funktion „_satellite.pageBottom()“ erforderlich. Fügen Sie das Inline-Skript unmittelbar vor dem schließenden „&lt;/body&gt;“-Tag hinzu, um die ordnungsgemäße DTM-Funktionalität sicherzustellen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Kann der Prüfer die Nicht-Adobe-Technologie prüfen? {#section-f6e73c56083b4815bbf901296038bcd4}
+## Kann Auditor Nicht-Adobe-Technologie prüfen? {#section-f6e73c56083b4815bbf901296038bcd4}
 
-Nein. Das vollständige Angebot von ObservePoint ermöglicht es Kunden jedoch, alle Marketing-Tags und -Technologien zu prüfen und zu überwachen. Als Adobe-Kunde haben Sie Zugriff auf ein kostenloses Testkonto. Um auf Ihr Testkonto zuzugreifen, besuchen Sie [die Seite](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&utm_medium=Auditor&utm_campaign=Premium)&quot;Auditor&quot;von ObservePoint.
+Nein. Das vollständige Angebot von ObservePoint ermöglicht es Kunden jedoch, alle Marketing-Tags und -Technologien zu prüfen und zu überwachen. Als Adobe-Kunde haben Sie Zugriff auf ein kostenloses Testkonto. Um auf Ihr Testkonto zuzugreifen, besuchen Sie die [Seite „Auditor“ von ObservePoint](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
-## Kann ich meine IP-Adressen auf eine weiße Liste setzen, um Seiten zu prüfen, die durch eine Anmeldung geschützt sind? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Kann ich meine IP-Adressen auf eine Positivliste setzen, um das Prüfen von Seiten zuzulassen, die durch Anmeldedaten geschützt sind? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 Diese Funktion wird derzeit ohne das vollständige ObservePoint-Angebot nicht unterstützt.
 
 ## Verwendet Auditor dieselben IP-Bereiche wie ObservePoint? {#section-39512b156e194787981bdd572ff5b5a9}
 
-Das Crawling wird von ObservePoint ausgeführt, sodass dieselben IP-Adressen verwendet werden.
+Das Durchsuchen wird von ObservePoint ausgeführt, sodass dieselben IP-Adressen verwendet werden.
 
-Weitere Informationen finden Sie in der [ObservePoint-Dokumentation](https://help.observepoint.com/articles/2312494-observepoint-whitelisting-and-proxy-list) .
+Weitere Informationen finden Sie in der [ObservePoint-Dokumentation](https://help.observepoint.com/articles/2312494-observepoint-whitelisting-and-proxy-list).
