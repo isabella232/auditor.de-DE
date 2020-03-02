@@ -1,49 +1,49 @@
 ---
-description: Auf der Seite "Prüfliste"werden Informationen zu all Ihren Prüfungen angezeigt.
-seo-description: Auf der Seite "Prüfliste"werden Informationen zu all Ihren Prüfungen angezeigt.
-seo-title: Audit List-Seite
-title: Audit List-Seite
+description: Auf der Seite „Audit List“ werden Informationen zu all Ihren Prüfungen angezeigt.
+seo-description: Auf der Seite „Audit List“ werden Informationen zu all Ihren Prüfungen angezeigt.
+seo-title: Seite „Audit List“
+title: Seite „Audit List“
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# Audit List-Seite{#audit-list-page}
+# Seite „Audit List“ {#audit-list-page}
 
-Auf der Seite &quot;Prüfliste&quot;werden Informationen zu all Ihren Prüfungen angezeigt.
+Auf der Seite „Audit List“ werden Informationen zu all Ihren Prüfungen angezeigt.
 
-Wenn Sie Auditor starten, wird die Seite Prüfliste angezeigt. Sie können die Seite Prüfliste entweder als Listen- oder Kartenansicht anzeigen.
+Wenn Sie Auditor starten, wird die Seite „Audit List“ angezeigt. Sie können die Seite „Audit List“ entweder als Listen- oder Kartenansicht anzeigen.
 
-## List view {#section-a428749d2ab94a08bf460e6a486b844a}
+## Listenansicht {#section-a428749d2ab94a08bf460e6a486b844a}
 
-In der Listenansicht werden die folgenden Informationen zu den einzelnen Prüfungen angezeigt.
+In der Listenansicht werden folgende Informationen zu den einzelnen Prüfungen angezeigt.
 
 ![](assets/audit-list.png)
 
 * Prüfname
-* Starten der URL
+* Start-URL
 
-   Die URL, an der die Prüfung beginnt, nach Seiten zu suchen.
+   Die URL, an der die Prüfung beginnt, Seiten zu durchsuchen.
 * Ergebnis
 
-   Prüfungen werden von 1 bis 100 bewertet, wobei 100 bedeutet, dass es keine Probleme auf den gescannten Seiten gibt.
+   Prüfungen werden von 1 bis 100 bewertet, wobei 100 bedeutet, dass es keine Probleme auf den geprüften Seiten gibt.
 * Status
 
-   Zeigt an, wann die Prüfung abgeschlossen wurde oder ob sie verarbeitet wird.
-* Antragsteller
+   Zeigt an, wann die Prüfung abgeschlossen ist oder ob sie noch verarbeitet wird.
+* des Anfragenden
 
    Zeigt den Namen des Benutzers an, der die Prüfung erstellt hat.
 * Aktionen
 
-   Enthält Links zum Kopieren oder erneuten Ausführen der Prüfung, zum Abbrechen einer derzeit ausgeführten Prüfung, zum Herunterladen eines Berichts als Excel-Tabelle oder zum Löschen der Prüfung.
+   Enthält Links zum Kopieren oder erneuten Ausführen der Prüfung, zum Abbrechen einer derzeit ausgeführten Prüfung, zum Herunterladen eines Berichts als Excel-Tabelle und zum Löschen der Prüfung.
 
 Klicken Sie auf den Namen der Prüfung, um die Prüfergebnisse anzuzeigen.
 
 ## Kartenansicht {#section-6826b585e53a46daa722b9bd3eda926e}
 
-Die Kartenansicht zeigt jedes Audit in einem grafischen Format an.
+Die Kartenansicht zeigt jede Prüfung im grafischen Format an.
 
 ![](assets/card.png)
 
