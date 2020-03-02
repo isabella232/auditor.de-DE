@@ -1,20 +1,20 @@
 ---
-description: Nachdem Sie einen Test ausgeführt haben, zeigt die Scorecard Informationen zu einem Audit an.
-seo-description: Nachdem Sie einen Test ausgeführt haben, zeigt die Scorecard Informationen zu einem Audit an.
+description: Nachdem Sie einen Test durchgeführt haben, zeigt die Scorecard Informationen zu einer Prüfung an.
+seo-description: Nachdem Sie einen Test durchgeführt haben, zeigt die Scorecard Informationen zu einer Prüfung an.
 seo-title: Scorecard
 title: Scorecard
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# Scorecard{#scorecard}
+# Scorecard {#scorecard}
 
-Nachdem Sie einen Test ausgeführt haben, zeigt die Scorecard Informationen zu einem Audit an.
+Nachdem Sie einen Test durchgeführt haben, zeigt die Scorecard Informationen zu einer Prüfung an.
 
-Klicken Sie auf der Seite &quot;Prüfer&quot;auf den Namen Ihrer Prüfung, um die Ergebnisse Ihres Tests anzuzeigen.
+Klicken Sie auf der Auditor-Seite auf den Namen Ihrer Prüfung, um die Ergebnisse Ihres Tests anzuzeigen.
 
 ![](assets/report.png)
 
@@ -23,7 +23,7 @@ Verwenden Sie die Scorecard, um zu sehen, wie die Prüfung in den folgenden Kate
 * Gesamtbewertung
 * Tag-Präsenz
 
-   Wertet aus, ob das Tag vorhanden ist und ob es sich an der richtigen Stelle im Seiten-Code befindet.
+   Wertet aus, ob das Tag vorhanden ist und es sich an der richtigen Stelle im Seitencode befindet.
 * Tag-Konsistenz
 
    Wertet aus, ob die Tags über URLs hinweg konsistent sind.
@@ -32,24 +32,24 @@ Verwenden Sie die Scorecard, um zu sehen, wie die Prüfung in den folgenden Kate
    Wertet die Tags mit anderen Regeln und empfohlenen Best Practices aus.
 * Warnhinweis
 
-   Warnhinweise zeigen Probleme an, die Sie kennen sollten, die sich jedoch nicht auf Ihr Ergebnis auswirken.
+   Warnhinweise zeigen Probleme an, die Sie kennen sollten, aber sich nicht auf Ihr Ergebnis auswirken.
 
-Ihr Ergebnis hängt vom Gewicht jedes Tests ab und davon, ob Sie bestehen oder nicht. Wenn Sie den Test bestehen, erhöht sich Ihr Ergebnis um die Anzahl der Punkte, die der Teststärke entsprechen.
+Ihr Ergebnis hängt von der Gewichtung jedes Tests ab und davon, ob der Test bestanden wurde oder nicht. Bei Bestehen eines Tests erhöht sich Ihr Ergebnis um die Anzahl der Punkte, die der Testgewichtung entsprechen.
 
-* 0: Warnt Sie auf Probleme, die Sie kennen sollten, die sich jedoch nicht auf Ihr Ergebnis auswirken.
+* 0: Zeigt Probleme auf, die Sie kennen sollten, aber sich nicht auf Ihr Ergebnis auswirken.
 * 1: Empfiehlt eine Optimierung. Keine Auswirkung auf die Datengenauigkeit.
-* 2: Wenn Sie diesen Test nicht durchführen, haben Sie keinen Zugriff auf die neuesten Funktionen und Fehlerbehebungen in der Adobe Experience Cloud.
-* 3: Tests zur Effizienz und zur Einhaltung der empfohlenen Best Practices bei der Implementierung.
-* 4: Fehler bedeutet, dass Sie möglicherweise unzuverlässige Daten erfassen.
-* 5: Fehler bedeutet, dass möglicherweise Datenverlust auftritt.
+* 2: Bei Nichtbestehen dieses Tests haben Sie keinen Zugriff auf die neuesten Funktionen und Fehlerbehebungen in der Adobe Experience Cloud.
+* 3: Tests zur Effizienz und zur Einhaltung der dringend empfohlenen Best Practices bei der Implementierung.
+* 4: Nichtbestehen bedeutet, dass Sie möglicherweise unzuverlässige Daten erfassen.
+* 5: Nichtbestehen bedeutet, dass möglicherweise Datenverlust auftritt.
 
-Die Scorecard listet alle Probleme der Stufe 4 oder 5 als **dringend empfohlen** auf.
+Die Scorecard listet die Behandlung aller Probleme der Stufe 4 oder 5 als **dringend empfohlen** auf.
 
-Die Scorecard listet alle Probleme der Stufen 1 bis 3 **auf, die Sie beheben** sollten.
+Die Scorecard listet die Behandlung aller Probleme der Stufe 1 bis 3 als **empfohlen** auf.
 
 Klicken Sie auf **[!UICONTROL Bericht herunterladen]**, um eine Excel- oder PDF-Datei herunterzuladen, die die Informationen der Prüfung enthält.
 
-Neben dem Ergebnis für jede Kategorie werden in der Scorecard alle empfohlenen oder empfohlenen Korrekturen sowie die Elemente aufgelistet, die den Test bestanden haben. Klicken Sie auf die einzelnen Ausgaben, um weitere Details im Feld auf der rechten Seite anzuzeigen. Klicken Sie erneut auf , um einen Drilldown durchzuführen und Empfehlungen zur Behebung des Problems anzuzeigen. Die folgende Tabelle zeigt die Details zu einer empfohlenen Ausgabe in der oben gezeigten Wertungsliste:
+Neben dem Ergebnis für jede Kategorie werden in der Scorecard alle empfohlenen oder dringend empfohlenen Korrekturen sowie die Elemente aufgelistet, die den Test bestanden haben. Klicken Sie auf die einzelnen Probleme, um weitere Details im Feld auf der rechten Seite anzuzeigen. Klicken Sie erneut, um einen Drilldown durchzuführen und Empfehlungen zur Behebung des Problems anzuzeigen. Folgende Tabelle zeigt die Details zu einem Problem mit empfohlener Behebung in der oben gezeigten Scorecard:
 
 ![](assets/report-issue-details.png)
 
@@ -57,6 +57,6 @@ Klicken Sie oben im Bildschirm auf die Kategorien, um die in den einzelnen Kateg
 
 ## Welche Seiten waren Teil des Tests? {#section-fd38ffeb868648e89c34c5772fa65f46}
 
-Sie können Listen der URLs anzeigen, die Ihren Test bestanden oder fehlgeschlagen haben.
+Sie können Listen der URLs anzeigen, die Ihren Test bestanden bzw. nicht bestanden haben.
 
-Klicken Sie in der Scorecard auf einen Testnamen oder auf den Link Alle **[!UICONTROL anzeigen]** unter jeder Kategorieüberschrift. Damit gelangen Sie zu den Details der Tests. Für jeden Test sehen Sie die Testbeschreibung und eine Liste aller URLs, die fehlgeschlagen sind und bestanden haben. Diese Informationen sind auch in heruntergeladenen Berichten enthalten.
+Klicken Sie in der Scorecard auf einen Testnamen oder auf den Link **[!UICONTROL See All]** unter jeder Kategorieüberschrift. Damit gelangen Sie zu den Details der Tests. Für jeden Test können Sie die Testbeschreibung und eine Liste aller URLs anzeigen, die nicht bestanden bzw. bestanden haben. Diese Informationen sind auch in heruntergeladenen Berichten enthalten.
