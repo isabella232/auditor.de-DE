@@ -4,8 +4,8 @@ seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die
 seo-title: Tag-Präsenz
 title: Tag-Präsenz
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -36,7 +36,7 @@ Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen Stelle im S
    <td colname="col3"> <p>Implementieren Sie das Segmentpixel der Advertising Cloud mithilfe der Advertising Cloud Launch Extension. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Analytics – Ist in DOM geladen</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/de_DE/sc/implement/" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
+   <td colname="col1"> <p><b>Analytics – Ist in DOM geladen</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/home.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Das Adobe Analytics-Tag wurde nicht erkannt. </p> </td> 
    <td colname="col3"> <p>Installieren Sie die neueste Version von Analytics. </p> </td> 
   </tr> 
