@@ -4,8 +4,8 @@ seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die
 seo-title: Testreferenz
 title: Testreferenz
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: ht
-source-git-commit: 0c116f699b697ad010ee074ac67159a49ec09ccd
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -46,7 +46,3 @@ Folgende Adobe-Lösungen sind derzeit nicht in der Testrubrik enthalten. Die Unt
 * Audience Manager
 * Campaign
 * Launch
-
-## Testkategorien {#section-630181db21ef4eec9ce6a13a0482bb55}
-
-Diese Testreferenz unterteilt die Tests in folgende Kategorien:
