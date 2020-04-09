@@ -4,7 +4,7 @@ seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die
 seo-title: Konfiguration
 title: Konfiguration
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
@@ -30,7 +30,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Advertising Cloud – Konversionsnamen enthalten nur alphanumerische Zeichen</b> </p> <p>Gewichtung: 3 </p> </td> 
-   <td colname="col2"> <p>Der Parameter <span class="codeph"> ev_conversion_property_name</span> sollte nur numerische und Dezimalwerte enthalten, AUẞER für den Parameter <span class="codeph"> ev_transid</span> (der Wert <span class="codeph"> ev_transid</span> darf Text oder numerische Werte enthalten). </p> <p>Suchen Sie nach <span class="codeph"> everesttech.net</span>-Pixeln, die einen URL-Parameter enthalten, der mit <span class="codeph"> ev_</span> beginnt. </p> <p>Beispiel: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47 </span> </p> </td> 
+   <td colname="col2"> <p>Der Parameter <span class="codeph"> ev_conversion_property_name</span> sollte nur numerische und Dezimalwerte enthalten, AUẞER für den Parameter <span class="codeph"> ev_transid</span> (der Wert <span class="codeph"> ev_transid</span> darf Text oder numerische Werte enthalten). </p> <p>Suchen Sie nach <span class="codeph"> everesttech.net</span>-Pixeln, die einen URL-Parameter enthalten, der mit <span class="codeph"> ev_</span> beginnt. </p> <p>Beispiel: </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47 </span> </p> </td> 
    <td colname="col3"> <p> Stellen Sie sicher, dass die Parameter der Transaktionseigenschaft nur numerische und Dezimalwerte enthalten. </p> <p> <p>Warnung: Alle anderen Werttypen können Datenverluste verursachen. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Advertising Cloud – Konversionsnamen verwenden URL-geeignete Zeichen</b> </p> <p>Gewichtung: 3 </p> </td> 
-   <td colname="col2"> <p> Konversionseigenschaftsnamen dürfen kein Und- und kein Fragezeichen enthalten. </p> <p> Beispiel: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
+   <td colname="col2"> <p> Konversionseigenschaftsnamen dürfen kein Und- und kein Fragezeichen enthalten. </p> <p> Beispiel: </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>Stellen Sie sicher, dass Transaktionseigenschaftsparameter kein nicht-kodiertes Und- und kein Fragezeichen enthalten. Diese Zeichen beeinträchtigen das URL-Format. </p> <p> <p>Warnung: Eigenschaftenparameter, die ein nicht-kodiertes Und- oder Fragezeichen enthalten (z. B. <span class="codeph"> ev_formComplete?=1</span> oder <span class="codeph"> ev_formComplete&amp;Submit=1</span>) können zu Datenverlust führen. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Advertising Cloud – Transaktions-ID ist korrekt implementiert</b> </p> <p>Gewichtung: 1 </p> </td> 
-   <td colname="col2"> <p> Der Eigenschaftsname <span class="codeph"> ev_transid=</span> sollte nicht leer sein. </p> <p>Beispiel: </p> <p> <span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
+   <td colname="col2"> <p> Der Eigenschaftsname <span class="codeph"> ev_transid=</span> sollte nicht leer sein. </p> <p>Beispiel: </p> <p> <span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>Der Eigenschaftsname <span class="codeph"> ev_transid=</span> sollte nicht ohne Wert (<span class="codeph"> ev_transid=</span>) belassen werden. Andernfalls kann es zu Transaktionsdatenverlust kommen. Weisen Sie dem Wert <span class="codeph"> ev_transid=</span> einen Wert zu oder entfernen Sie den Parameter aus dem Pixel. </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM – Drittanbieter-Tags werden nach DOM Ready asynchron geladen</b> </p> <p>Gewichtung: 3 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/resources/load-order.translate.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    </draft-comment> <p><b>DTM – Drittanbieter-Tags werden nach DOM Ready asynchron geladen</b> </p> <p>Gewichtung: 3 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/resources/load-order.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Für ein Gleichgewicht zwischen guter Benutzererfahrung und Erfassung genauer Daten sollten Drittanbieter-Tags bei DOM Ready ausgelöst werden. Dadurch wird sichergestellt, dass diese Tracking-Skripte ausgeführt werden, ohne dass dadurch die Funktionalität der Site beeinträchtigt wird. </p> </td> 
    <td colname="col3"> <p>Beheben Sie dieses Problem, indem Sie alle Regeln anpassen, die Pixel von Drittanbietern ausführen, damit diese Pixel bei DOM Ready ausgelöst werden. </p> </td> 
   </tr> 
@@ -85,7 +85,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID-Service – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/tools/macid.translate.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID-Service – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/tools/macid.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Codebibliothek des Besucher-ID-Services <span class="codeph"> visitorAPI.js</span> ausgeführt. Codebibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
    <td colname="col3"> <p>Installieren Sie die neueste Version der Besucher-ID-Service-Bibliothek. </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
+    </draft-comment> <p><b>Launch – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Auf diesen Seiten wird nicht die neueste Version der Launch-Codebibliothek (Turbine) ausgeführt. Codebibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
    <td colname="col3"> <p> Aktualisieren Sie die Launch-Bibliothek, indem Sie sie neu erstellen und veröffentlichen. </p> </td> 
   </tr> 
@@ -101,7 +101,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    </draft-comment> <p><b>Target – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Target-Codebibliothek ausgeführt. Codebibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
    <td colname="col3"> <p>Installieren Sie die aktuelle Version der Target-Bibliothek. </p> </td> 
   </tr> 
@@ -109,7 +109,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target – mboxDefault vor mboxCreate </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    </draft-comment> <p><b>Target – mboxDefault vor mboxCreate </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Die ordnungsgemäße Verwendung von <span class="codeph"> mboxCreate</span> sieht in etwa so aus: </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Kundeninhalt--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
    <td colname="col3"> <p>Stellen Sie sicher, dass Sie ein <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span>-Tag einschließen, bevor Sie <span class="codeph"> mboxCreate()</span> aufrufen. „at.js“ fügt keins für Sie hinzu. </p> </td> 
   </tr> 
@@ -117,7 +117,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target – Gültiger DOCTYPE</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/help/en/target/using/implement-target/client-side/faq-at-js/target-atjs-faq.html#what-html-doctype-does-atjs-require" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    </draft-comment> <p><b>Target – Gültiger DOCTYPE</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/help/de-DE/target/using/implement-target/client-side/faq-at-js/target-atjs-faq.html#what-html-doctype-does-atjs-require" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Ein ungültiger DOCTYPE wurde erkannt. In diesem Szenario werden keine mboxes ausgelöst. </p> <p>Bei „at.js“ muss sich der DOCTYPE im Standardmodus befinden, sonst funktioniert Target nicht. </p> </td> 
    <td colname="col3"> <p>Aktualisieren Sie den DOCTYPE auf der Seite. </p> </td> 
   </tr> 
