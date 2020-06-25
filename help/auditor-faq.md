@@ -4,11 +4,11 @@ seo-description: 'null'
 seo-title: Auditor-FAQ
 title: Auditor-FAQ
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '938'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Dieser Artikel enthält Antworten auf häufig gestellte Fragen zu Adobe Experien
 * [Welche Informationen enthält ein Bericht?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [Wie umsetzbar sind diese Informationen?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [Kann Auditor Nicht-Adobe-Technologie prüfen?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [Kann ich meine IP-Adressen genehmigen, um Scannerseiten zuzulassen...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [Kann ich meine IP-Adressen genehmigen, um das Prüfen von Seiten zuzulassen…](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Verwendet Auditor dieselben IP-Bereiche wie ObservePoint?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## Was ist Auditor? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -41,7 +41,7 @@ Alle Adobe Experience Cloud-Kundenorganisationen erhalten (ab 1. Mai 2018) koste
 
 ## Wie greife ich auf Auditor zu? {#section-531ff85f94384831a89cbb4109549daf}
 
-Nach der Anmeldung bei [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com) können Sie den Auditor finden, indem Sie oben in der Navigation auf **[!UICONTROL Aktivierung]** klicken. Sie können auch direkt zu [https://auditor.adobe.com](https://auditor.adobe.com) gehen.
+Nach der Anmeldung bei [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com) können Sie den Auditor finden, indem Sie oben in der Navigation auf **[!UICONTROL Activation]** klicken. Sie können auch direkt zu [https://auditor.adobe.com](https://auditor.adobe.com) gehen.
 
 ## Welche Adobe-Technologien werden von Auditor bewertet? {#section-52833b71c05448aaae508e6070a387f5}
 
@@ -129,7 +129,7 @@ Alle Empfehlungen von Auditor sollen Ihnen dabei helfen, ein Problem bei der Imp
 
 Nein. Das vollständige Angebot von ObservePoint ermöglicht es Kunden jedoch, alle Marketing-Tags und -Technologien zu prüfen und zu überwachen. Als Adobe-Kunde haben Sie Zugriff auf ein kostenloses Testkonto. Um auf Ihr Testkonto zuzugreifen, besuchen Sie die [Seite „Auditor“ von ObservePoint](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
-## Can I approve my IP addresses to allow scanning pages that are protected by a login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Kann ich meine IP-Adressen genehmigen, um das Prüfen von Seiten zuzulassen, die durch Anmeldedaten geschützt sind? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 Diese Funktion wird derzeit ohne das vollständige ObservePoint-Angebot nicht unterstützt.
 
