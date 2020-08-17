@@ -4,8 +4,11 @@ seo-description: Neue Prüfung in Auditor erstellen
 seo-title: Neue Prüfung in Auditor erstellen
 title: Neue Prüfung in Auditor erstellen
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Verwenden Sie den Link unten auf der Seite, wenn Sie möchten, um auf ein kosten
    Der Name kann aus bis zu 250 Zeichen bestehen.
 1. (Erforderlich) Geben Sie die Start-URL an.
 
-   Das Protokoll ist beim Festlegen der Start-URL erforderlich. Die Start-URL ist die Seite, auf der die Prüfung mit der Durchsuchung beginnt. Nach dem Start durchsucht Auditor bis zu 500 Seiten und folgt dabei Links, die an der Start-URL beginnen. Weitere Informationen finden Sie unter [Ein- und Ausschlussfilter](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257). Die Start-URL kann aus bis zu 250 Zeichen bestehen.
+   Das Protokoll ist beim Festlegen der Start-URL erforderlich. Die Start-URL ist die Seite, auf der die Prüfung mit der Durchsuchung beginnt. Nach dem Start durchsucht Auditor bis zu 500 Seiten und folgt dabei Links, die an der Start-URL beginnen. Weitere Informationen finden Sie unter [Ein- und Ausschlussfilter](../create-audit/filters.md). Die Start-URL kann aus bis zu 250 Zeichen bestehen.
 
    >[!NOTE]
    >
@@ -52,7 +55,7 @@ Verwenden Sie den Link unten auf der Seite, wenn Sie möchten, um auf ein kosten
 
    Die Einschlussfilter sind auf 1.000 Zeichen pro Zeile beschränkt.
 
-   Weitere Informationen finden Sie unter [Einschlussliste](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f).
+   Weitere Informationen finden Sie unter [Einschlussliste](../create-audit/filters.md).
 1. Geben Sie Ausschlussfilter an.
 
    Die Ausschlussliste verhindert, dass URLs geprüft werden. Verwenden Sie exakte URLs, Teil-URLs oder reguläre Ausdrücke, genau wie in der Einschlussliste.
@@ -61,7 +64,7 @@ Verwenden Sie den Link unten auf der Seite, wenn Sie möchten, um auf ein kosten
 
    Die Ausschlussfilter sind auf 1.000 Zeichen pro Zeile beschränkt.
 
-   Weitere Informationen finden Sie unter [Ausschlussliste](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9).
+   Weitere Informationen finden Sie unter [Ausschlussliste](../create-audit/filters.md).
 1. (Optional) Bei Bedarf können Sie die Ein- und Ausschlussfilter sowie Ihre URLs testen.
 
    Geben Sie die Filter sowie URLs ein und klicken Sie dann auf **[!UICONTROL Apply]**, um den Test auszuführen.
