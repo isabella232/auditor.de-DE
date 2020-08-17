@@ -1,6 +1,9 @@
 ---
-source-git-commit: 525ab6768a5f4e3af5dfe751bd0669bf92954f92
-translation-type: ht
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '281'
+ht-degree: 100%
 
 ---
 # Beitragen
@@ -19,7 +22,7 @@ Beginnen Sie mit dem Melden eines Problems. Die bereits zu diesem Projekt beitra
 
 ## Lizenzvereinbarung für Mitarbeiter
 
-Für alle Drittanbieterbeiträge zu diesem Projekt muss eine signierte Lizenzvereinbarung für Mitarbeiter vorliegen. So kann Adobe Mitarbeiter im Rahmen des Projekts neu verteilen. [Signieren Sie unsere Lizenzvereinbarung für Mitarbeiter](http://opensource.adobe.com/cla.html). Sie müssen nur einmal eine Adobe-Lizenzvereinbarung für Mitarbeiter einreichen. Wenn Sie also bereits eine gesendet haben, können Sie loslegen.
+Für alle Drittanbieterbeiträge zu diesem Projekt muss eine signierte Lizenzvereinbarung für Mitarbeiter vorliegen. So kann Adobe Mitarbeiter im Rahmen des Projekts neu verteilen. [Signieren Sie unsere Lizenzvereinbarung für Mitarbeiter](https://opensource.adobe.com/cla.html). Sie müssen nur einmal eine Adobe-Lizenzvereinbarung für Mitarbeiter einreichen. Wenn Sie also bereits eine gesendet haben, können Sie loslegen.
 
 ## Codeüberprüfungen
 
