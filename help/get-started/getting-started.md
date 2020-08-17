@@ -4,8 +4,11 @@ seo-description: Erste Schritte mit Auditor
 seo-title: Erste Schritte
 title: Erste Schritte
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -44,10 +47,10 @@ Wenn Sie Auditor zum ersten Mal verwenden, müssen Sie die Auditor-Vereinbarung 
 
    ![](assets/config.png)
 
-   Eine Beschreibung aller Konfigurationsoptionen finden Sie unter [Create a New Audit](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d).
+   Eine Beschreibung aller Konfigurationsoptionen finden Sie unter [Create a New Audit](../create-audit/create-new-audit.md).
 1. Zeigen Sie Ihren Bericht an.
 
-   Wenn Sie die E-Mail mit der Mitteilung erhalten, dass die Prüfung abgeschlossen ist, klicken Sie auf den Link, um [Ihren Bericht anzuzeigen](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869) und zu erkunden, welche Möglichkeiten zur Verbesserung Ihrer Implementierung bestehen und wie Sie mit Ihren Adobe-Lösungen einen Mehrwert erzielen.
+   Wenn Sie die E-Mail mit der Mitteilung erhalten, dass die Prüfung abgeschlossen ist, klicken Sie auf den Link, um [Ihren Bericht anzuzeigen](../reports/scorecard.md) und zu erkunden, welche Möglichkeiten zur Verbesserung Ihrer Implementierung bestehen und wie Sie mit Ihren Adobe-Lösungen einen Mehrwert erzielen.
 
    Sie können auch auf den Namen der Prüfung auf der [Auditor-Seite](../get-started/audit-list.md) klicken, um den Status der Prüfung anzuzeigen und den Bericht nach Abschluss der Prüfung anzuzeigen.
 
