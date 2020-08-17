@@ -4,8 +4,11 @@ seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die
 seo-title: Tag-Konsistenz
 title: Tag-Konsistenz
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Die Auditor-Konsistenztests suchen Inkonsistenzen auf allen geprüften Seiten. D
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics – Konsistente Codeversion </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    </draft-comment> <p><b>Analytics – Konsistente Codeversion </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/home.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Es wurde mehr als eine Version des Analytics-Codes gefunden. </p> </td> 
    <td colname="col3"> <p>Ersetzen Sie alle Instanzen von Analytics durch die aktuelle Version. </p> </td> 
   </tr> 
