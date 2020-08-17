@@ -4,8 +4,11 @@ seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die
 seo-title: Tag-Präsenz
 title: Tag-Präsenz
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 100%
 
 ---
 
@@ -76,7 +79,7 @@ Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen Stelle im S
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID-Service – Cookiepräsenz</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID-Service – Cookiepräsenz</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/tools/macid.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Das <span class="codeph"> AMCV_</span>-Cookie wurde nicht gefunden. Sie müssen ein Besucherobjekt aus dem Code <span class="codeph"> VisitorAPI.js</span> instanziieren. </p> </td> 
    <td colname="col3"> <p> Wenn es sich um eine DTM-Implementierung handelt, stellen Sie sicher, dass die AdobeOrg-ID korrekt in das MCID-Tool eingegeben wurde. </p> </td> 
   </tr> 
