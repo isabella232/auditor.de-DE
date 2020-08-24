@@ -4,9 +4,9 @@ seo-description: Neue Prüfung in Auditor erstellen
 seo-title: Neue Prüfung in Auditor erstellen
 title: Neue Prüfung in Auditor erstellen
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
 ht-degree: 100%
 
@@ -71,4 +71,4 @@ Verwenden Sie den Link unten auf der Seite, wenn Sie möchten, um auf ein kosten
 
    ![](assets/test-advanced-filters.png)
 
-1. Klicken Sie auf **[!UICONTROL Bericht ausführen]**.
+1. Klicken Sie auf **[!UICONTROL Run Report]**.
