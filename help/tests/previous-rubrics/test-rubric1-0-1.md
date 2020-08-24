@@ -353,7 +353,7 @@ Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen Stelle im S
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID-Service – Codepräsenz</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID-Service – Codepräsenz</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Der Experience Cloud ID-Service-Code wurde nicht gefunden. Es wird dringend empfohlen, dass eine Experience Cloud ID (MCID) vorhanden ist, um sicherzustellen, dass Sie Ihre Experience Cloud-Lösungen optimal nutzen. Sie ist außerdem für das ID-Management in allen Experience Cloud-Lösungen von entscheidender Bedeutung. </p> </td> 
    <td colname="col3"> <p> Installieren Sie die neueste Version von MCID. </p> </td> 
   </tr> 
