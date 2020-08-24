@@ -96,7 +96,7 @@ Auditor bewertet die Tags anhand anderer Regeln und empfohlener Best Practices.
   <tbody> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud – Konversionsnamen enthalten nur alphanumerische Zeichen</b> </p> <p>Gewichtung: 3 </p> </td> 
-    <td colname="col2"> <p>Der Parameter <span class="codeph"> ev_conversion_property_name</span> sollte nur numerische und Dezimalwerte enthalten, AUẞER für den Parameter <span class="codeph"> ev_transid</span> (der Wert <span class="codeph"> ev_transid</span> darf Text oder numerische Werte enthalten). </p> <p>Suchen Sie nach <span class="codeph"> everesttech.net</span>-Pixeln, die einen URL-Parameter enthalten, der mit <span class="codeph"> ev_</span> beginnt. </p> <p>Beispiel: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
+    <td colname="col2"> <p>Der Parameter <span class="codeph"> ev_conversion_property_name</span> sollte nur numerische und Dezimalwerte enthalten, AUẞER für den Parameter <span class="codeph"> ev_transid</span> (der Wert <span class="codeph"> ev_transid</span> darf Text oder numerische Werte enthalten). </p> <p>Suchen Sie nach <span class="codeph"> everesttech.net</span>-Pixeln, die einen URL-Parameter enthalten, der mit <span class="codeph"> ev_</span> beginnt. </p> <p>Beispiel: </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
     <td colname="col3"> <p> Stellen Sie sicher, dass die Parameter der Transaktionseigenschaft nur numerische und Dezimalwerte enthalten. </p> <p> <p>Warnung: Alle anderen Werttypen können Datenverluste verursachen. </p> </p> </td> 
    </tr> 
    <tr> 
@@ -110,7 +110,7 @@ Auditor bewertet die Tags anhand anderer Regeln und empfohlener Best Practices.
     <td colname="col3"> <p>Der Eigenschaftsname <span class="codeph"> ev_transid=</span> sollte nicht ohne Wert (<span class="codeph"> ev_transid=</span>) belassen werden. Andernfalls kann es zu Transaktionsdatenverlust kommen. Weisen Sie dem Wert <span class="codeph"> ev_transid=</span> einen Wert zu oder entfernen Sie den Parameter aus dem Pixel. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics – Ist in DOM instanziiert</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/testing-and-validation-process/impl-validation.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics – Ist in DOM instanziiert</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/home.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
     <td colname="col2"> <p> Der Adobe Analytics-Code ist entweder nicht installiert oder kann nicht ausgeführt werden. Gibt 0 zurück, wenn kein Analytics-Code auf der Webseite gefunden wurde. </p> </td> 
     <td colname="col3"> <p>Vergewissern Sie sich, dass das Analytics-Tag auf der Seite implementiert ist und nicht durch nachfolgende Skriptaktivitäten blockiert wird. </p> </td> 
    </tr> 
