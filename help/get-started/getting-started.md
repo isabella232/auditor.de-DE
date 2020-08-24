@@ -4,9 +4,9 @@ seo-description: Erste Schritte mit Auditor
 seo-title: Erste Schritte
 title: Erste Schritte
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Wenn Sie Auditor zum ersten Mal verwenden, müssen Sie die Auditor-Vereinbarung 
 
 ## Ausführen der ersten Prüfung {#task-b211597afed343cfa238443fcf7c6041}
 
-1. Klicken Sie auf die Menüschaltfläche in der oberen rechten Ecke der Navigationsleiste von Adobe Experience Cloud und dann auf **[!UICONTROL Aktivierung]**.
+1. Klicken Sie auf die Menüschaltfläche in der oberen rechten Ecke der Navigationsleiste von Adobe Experience Cloud und dann auf **[!UICONTROL Activation]**.
 
    ![](assets/activate.png)
 
@@ -43,7 +43,7 @@ Wenn Sie Auditor zum ersten Mal verwenden, müssen Sie die Auditor-Vereinbarung 
 
 1. Konfigurieren Sie die Prüfung.
 
-   Benennen Sie die Prüfung, geben Sie eine Start-URL ein und klicken Sie auf **[!UICONTROL Bericht ausführen]**. Nach Abschluss der Prüfung erhalten Sie eine E-Mail-Benachrichtigung.
+   Benennen Sie die Prüfung, geben Sie eine Start-URL ein und klicken Sie auf **[!UICONTROL Run Report]**. Nach Abschluss der Prüfung erhalten Sie eine E-Mail-Benachrichtigung.
 
    ![](assets/config.png)
 
