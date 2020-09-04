@@ -4,10 +4,10 @@ seo-description: Informationen zu Adobe Auditor-Tests
 seo-title: Testrubrik 0.0.8
 title: Testrubrik 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: ht
-source-wordcount: '1998'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '1983'
 ht-degree: 100%
 
 ---
@@ -58,9 +58,9 @@ Warnhinweise zeigen Probleme an, die Sie kennen sollten, aber sich nicht auf Ihr
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM – Platzierung des Rückrufs „pageBottom“</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> 
-     <draft-comment>
+     <!--
        TEa9df69942f404055a64262889c8b21d3 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Für das Dynamic Tag Management ist die Funktion <span class="codeph">_satellite.pageBottom()</span> erforderlich. </p> <p>Es ist Best Practice, dass das Tag das <i>letzte</i> Tag im <span class="codeph"> &lt;body&gt;</span>ist. Wenn es im <span class="codeph"> &lt;body&gt;</span>-Tag gefunden wird, kann es eventuell funktionieren, doch da es sich hierbei nicht um eine Best Practice handelt, könnte es falsch oder mit unerwarteten bzw. unerwünschten Ergebnissen funktionieren. </p> </td> 
     <td colname="col3"> <p>Fügen Sie das Inline-Skript unmittelbar vor dem schließenden <span class="codeph"> &lt;/body&gt;</span>-Tag hinzu, um eine ordnungsgemäße DTM-Funktionalität sicherzustellen. </p> </td> 
    </tr> 
@@ -255,9 +255,9 @@ Auditor wertet aus, ob das Tag vorhanden ist, ob es sich an der richtigen Stelle
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Target – Bibliothek wird in &lt;head&gt; geladen</b> </p> <p>Gewichtung: 4 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/target/using/implement-target/implementing-target.html" format="html" scope="external"> Weitere Informationen</a> </p> 
-     <draft-comment>
+     <!--
        TE61c380082a4b4706b28a84aa047599a7 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Die Target-Bibliothek sollte im Tag <span class="codeph"> &lt;head&gt;</span> geladen werden. </p> </td> 
     <td colname="col3"> <p> Vergewissern Sie sich, dass die Target-Bibliothek im Tag <span class="codeph"> &lt;head&gt;</span> geladen wird. </p> </td> 
    </tr> 
