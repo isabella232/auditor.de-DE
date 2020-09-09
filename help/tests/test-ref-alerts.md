@@ -4,9 +4,9 @@ seo-description: Diese Referenz enthält weitere Informationen zu den Warnhinwei
 seo-title: Warnhinweise
 title: Warnhinweise
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '904'
 ht-degree: 100%
 
@@ -109,7 +109,7 @@ Warnhinweise zeigen Probleme an, die Sie kennen sollten, aber sich nicht auf Ihr
       1.0.1 
     --> <p><b>Launch – Self-Hosting</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Erste Schritte mit Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Asynchrone Launch-Bereitstellung</a> </p> </td> 
    <td colname="col2"> <p>Die Launch-Bibliothek wird auf der Akamai-Instanz von Adobe unter <span class="filepath"> assets.adobedtm.com</span> gehostet. </p> <p>Das Self-Hosting ist der empfohlene Ansatz zum Laden von Launch, da es die Leistung von Websites durch Cache-Steuerung, Reduzierung der Skriptabhängigkeiten von Drittanbietern und bessere Steuerung des Veröffentlichungsprozesses verbessert. Die Launch-Bibliotheken können über Ihr eigenes Web-Hosting oder CDN gehostet und verwaltet werden. </p> </td> 
-   <td colname="col3"> <p>Obwohl das Hosting über das Akamai CDN in den meisten Fällen funktioniert, wird empfohlen, das Self-Hosting als ersten Schritt zur Verbesserung der Seitenleistung zu implementieren. </p> </td> 
+   <td colname="col3"> <p>Obwohl das Launch-Hosting über das Akamai CDN in den meisten Fällen funktioniert, wird empfohlen, das Self-Hosting als ersten Schritt zur Verbesserung der Seitenleistung zu implementieren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
