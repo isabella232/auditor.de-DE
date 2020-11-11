@@ -4,8 +4,11 @@ seo-description: Nachdem Sie einen Test durchgeführt haben, zeigt die Scorecard
 seo-title: Scorecard
 title: Scorecard
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 Nachdem Sie einen Test durchgeführt haben, zeigt die Scorecard Informationen zu einer Prüfung an.
 
-Klicken Sie auf der Auditor-Seite auf den Namen Ihrer Prüfung, um die Ergebnisse Ihres Tests anzuzeigen.
+Klicken Sie auf der Seite &quot;Adobe Experience Platform-Prüfer&quot;auf den Namen Ihrer Prüfung, um die Testergebnisse Ansicht.
 
 ![](assets/report.png)
 
@@ -47,7 +50,7 @@ Die Scorecard listet die Behandlung aller Probleme der Stufe 4 oder 5 als **drin
 
 Die Scorecard listet die Behandlung aller Probleme der Stufe 1 bis 3 als **empfohlen** auf.
 
-Klicken Sie auf **[!UICONTROL Bericht herunterladen]**, um eine Excel- oder PDF-Datei herunterzuladen, die die Informationen der Prüfung enthält.
+Klicken Sie auf **[!UICONTROL Bericht herunterladen]**, um eine - oder PDF-Datei herunterzuladen, die die Informationen der Prüfung enthält.[!DNL Excel]
 
 Neben dem Ergebnis für jede Kategorie werden in der Scorecard alle empfohlenen oder dringend empfohlenen Korrekturen sowie die Elemente aufgelistet, die den Test bestanden haben. Klicken Sie auf die einzelnen Probleme, um weitere Details im Feld auf der rechten Seite anzuzeigen. Klicken Sie erneut, um einen Drilldown durchzuführen und Empfehlungen zur Behebung des Problems anzuzeigen. Folgende Tabelle zeigt die Details zu einem Problem mit empfohlener Behebung in der oben gezeigten Scorecard:
 
@@ -59,4 +62,4 @@ Klicken Sie oben im Bildschirm auf die Kategorien, um die in den einzelnen Kateg
 
 Sie können Listen der URLs anzeigen, die Ihren Test bestanden bzw. nicht bestanden haben.
 
-Klicken Sie in der Scorecard auf einen Testnamen oder auf den Link **[!UICONTROL See All]** unter jeder Kategorieüberschrift. Damit gelangen Sie zu den Details der Tests. Für jeden Test können Sie die Testbeschreibung und eine Liste aller URLs anzeigen, die nicht bestanden bzw. bestanden haben. Diese Informationen sind auch in heruntergeladenen Berichten enthalten.
+From the scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. Damit gelangen Sie zu den Details der Tests. Für jeden Test können Sie die Testbeschreibung und eine Liste aller URLs anzeigen, die nicht bestanden bzw. bestanden haben. Diese Informationen sind auch in heruntergeladenen Berichten enthalten.
