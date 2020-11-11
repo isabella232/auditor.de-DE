@@ -4,11 +4,11 @@ seo-description: Einschlussfilter beschränken, welche Links eine Prüfung von d
 seo-title: Ein- und Ausschlussfilter
 title: Ein- und Ausschlussfilter
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '804'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ Ein- und Ausschlussfilter enthalten Richtlinien für Prüfungen. Wenn Sie die Fe
 
 Indem Sie Ein- oder Ausschlussfilter bzw. eine Kombination aus beiden anwenden, können Anweisungen gegeben werden, welche Links bei einer Prüfung durchsucht werden können.
 
-Jedes Element im Feld für Einschlussfilter beschränkt die Prüfung auf die Seiten, die mit diesem Element übereinstimmen. Jedes Element im Feld für Ausschlussfilter verhindert, dass Seiten, die diesem Element entsprechen, geprüft werden.
+Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
 
 Ein- und Ausschlussfilter können vollständige URLs, Teil-URLs oder reguläre Ausdrücke sein, die einer gültigen Seite entsprechen.
 
@@ -53,7 +53,7 @@ Ein- und Ausschlussfilter können vollständige URLs, Teil-URLs oder reguläre A
 
 ## Start-URL {#section-ccb46abcd96f4a8ab171245015d2b724}
 
-Auditor benötigt eine einzelne Seite für die Start-URL. Die Start-URL wird immer vor anderen URLs aufgerufen. Alle auf der Startseite gefundenen Links können besucht werden. Dies unterliegt allerdings den Ein- und Ausschlussfiltern. Wenn ein Ausschlusselement mit einer Start-URL übereinstimmt, wird es ignoriert.
+Adobe Experience Platform Auditor benötigt eine einzelne Seite für die Start-URL. Die Start-URL wird immer vor anderen URLs aufgerufen. Alle auf der Startseite gefundenen Links können besucht werden. Dies unterliegt allerdings den Ein- und Ausschlussfiltern. Wenn ein Ausschlusselement mit einer Start-URL übereinstimmt, wird es ignoriert.
 
 ## Einschlussfilter {#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -76,9 +76,9 @@ Standardmäßig werden bei einer Prüfung alle Subdomänen der Start-URL geprüf
 
 Dadurch kann jeder Link, der auf der Startseite der URL vorhanden ist, besucht werden. Dies entspricht jeder Seite aller Subdomänen der Start-URL.
 
-Durch die Verwendung des standardmäßigen Einschlussfilters entsteht ein breiter Bereich, der bei einer Prüfung durchsucht werden kann. Wenn Sie sich bestimmten Abschnitten oder Seiten widmen möchten, geben Sie bestimmte Richtungen für Ihre Prüfung an, indem Sie in diesem Feld Filter hinzufügen. Ersetzen Sie in diesem Fall den Standardwert durch die Ordner, die geprüft werden sollen. Sie können Einschlussfilter auch verwenden, um domänenübergreifende Prüfungen durchzuführen, bei denen die Prüfung in einer Domäne starten und in einer anderen enden soll. Geben Sie dazu die Domänen ein, die Sie durchlaufen möchten. In jedem Fall müssen Einschlussfilter-URLs auf einer geprüften Seite angezeigt werden, damit sie gefunden werden können.
+Durch die Verwendung des standardmäßigen Einschlussfilters entsteht ein breiter Bereich, der bei einer Prüfung durchsucht werden kann. Wenn Sie sich bestimmten Abschnitten oder Seiten widmen möchten, geben Sie bestimmte Richtungen für Ihre Prüfung an, indem Sie in diesem Feld Filter hinzufügen. Ersetzen Sie in diesem Fall den Standardwert durch die Ordner, die geprüft werden sollen. Sie können auch Filter einschließen verwenden, um domänenübergreifende Prüfungen durchzuführen, bei denen Sie die Prüfung auf einer Domäne und auf einer anderen beenden müssen. Geben Sie dazu die Domänen ein, die Sie durchlaufen möchten. In jedem Fall müssen Filter-URLs mit einschließen auf einer geprüften Seite gefunden werden.
 
-Einschlussfilter können exakte URLs, Teil-URLs oder reguläre Ausdrücke enthalten. Wenn die Start-URL beispielsweise [!DNL http://mysite.com] lautet, können folgende Seiten standardmäßig geprüft werden (beachten Sie die fett gedruckten Zeichen):
+Die Include-Filter können exakte URLs, teilweise URLs oder reguläre Ausdruck enthalten. Wenn die Start-URL beispielsweise [!DNL http://mysite.com] lautet, können folgende Seiten standardmäßig geprüft werden (beachten Sie die fett gedruckten Zeichen):
 
 ```html
 http://mysite.com
@@ -100,7 +100,7 @@ Ausschlussfilter verhindern, dass URLs geprüft werden. Sie können exakte URLs,
 
 ## Testen von Filtern und URLs {#section-3cfa125b1756411395a64701e128efa0}
 
-Sie können Ihre Filter und URLs in Auditor testen.
+Sie können Ihre Filter und URLs in Platform Auditor testen.
 
 Klicken Sie beim Erstellen der Prüfung auf **[!UICONTROL Test Advanced Filters]**. Geben Sie Ihre Filter sowie URLs ein und klicken Sie dann auf **[!UICONTROL Apply]**.
 
