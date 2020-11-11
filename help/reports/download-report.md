@@ -4,8 +4,11 @@ seo-description: Der Bericht zeigt an, ob die einzelnen URLs bestanden haben ode
 seo-title: Bericht herunterladen
 title: Bericht herunterladen
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ Der Bericht zeigt an, ob die einzelnen URLs bestanden haben oder nicht.
 
 Der Bericht kann auf der Scorecard-Seite der Benutzeroberfläche angezeigt werden. Sie können den Bericht auch herunterladen:
 
-1. Klicken Sie in der Liste „Auditor“ oder in einer Scorecard auf **[!UICONTROL Bericht herunterladen]**.
+1. From the Adobe Experience Platform Auditor list or a scorecard, click **[!UICONTROL Download Report]**.
 
    Sie können den Bericht als Tabelle oder PDF-Datei herunterladen.
 1. Geben Sie an, ob die Datei geöffnet oder gespeichert werden soll.
