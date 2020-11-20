@@ -1,14 +1,14 @@
 ---
-description: Informationen zu den Adobe Experience Platform-Auditor-Tests
-seo-description: Informationen zu den Adobe Experience Platform-Auditor-Tests
+description: Informationen zu Adobe Experience Platform Auditor-Tests
+seo-description: Informationen zu Adobe Experience Platform Auditor-Tests
 seo-title: Testrubrik 0.0.8
 title: Testrubrik 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2008'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -49,19 +49,19 @@ Warnhinweise zeigen Probleme an, die Sie kennen sollten, aber sich nicht auf Ihr
        <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
        <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
-    <td colname="col3"> <p>Aktualisieren Sie Ihre Advertising Cloud-Pixel auf die neuen „Nur-Bild“-Tags der Advertising Cloud, um sicherzustellen, dass Sie die vollständige Funktionalität der Advertising Cloud nutzen. </p> <p>Dies lässt sich mit der Advertising Cloud Extension for Platform Launch am einfachsten erreichen. </p> </td> 
+    <td colname="col3"> <p>Aktualisieren Sie Ihre Advertising Cloud-Pixel auf die neuen „Nur-Bild“-Tags der Advertising Cloud, um sicherzustellen, dass Sie die vollständige Funktionalität der Advertising Cloud nutzen. </p> <p>Dies lässt sich am einfachsten mit der Advertising Cloud-Erweiterung für Platform Launch erreichen. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud – DSP-Synchronisierung für Segmentpixel ist aktiviert</b> </p> <p>Gewichtung: 0 </p> </td> 
     <td colname="col2"> <p>Überprüfen Sie, ob das TubeMogul-Segmentpixel eine DSP-Synchronisierungseinstellung enthält, und empfehlen Sie, dem Pixel die Einstellung hinzuzufügen. </p> <p>Die Einstellung „DSP-Synchronisierung“ wird durch die Verwendung eines Abfragezeichenfolgenparameters bestimmt. </p> <p>WENN das Tag ausgelöst wird für <span class="codeph">("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;")</span> </p> <p> ODER <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> ODER <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>UND das Tag den URL-Parameter <span class="codeph"> "sid=")</span> enthält, </p> <p>DANN überprüfen Sie, ob der URL-Parameter <span class="codeph"> "cs=0"</span> oder <span class="codeph"> "cs=1"</span> vorhanden ist. Wenn nicht, empfehlen Sie, diesen Pixeln <span class="codeph"> "cs=1"</span> hinzuzufügen, damit die Übereinstimmungsraten der Zielgruppe verbessert werden können. </p> </td> 
-    <td colname="col3"> <p> Fügen Sie Ihren Advertising Cloud-Pixeln den URL-Parameter <span class="codeph"> "cs=1"</span> hinzu, damit eine DSP-Synchronisierung stattfinden kann, wodurch die Übereinstimmungsraten der Zielgruppe erhöht werden. </p> <p>Dies lässt sich mit der Advertising Cloud Extension for Platform Launch am einfachsten erreichen. </p> </td> 
+    <td colname="col3"> <p> Fügen Sie Ihren Advertising Cloud-Pixeln den URL-Parameter <span class="codeph"> "cs=1"</span> hinzu, damit eine DSP-Synchronisierung stattfinden kann, wodurch die Übereinstimmungsraten der Zielgruppe erhöht werden. </p> <p>Dies lässt sich am einfachsten mit der Advertising Cloud-Erweiterung für Platform Launch erreichen. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM – Platzierung des Rückrufs „pageBottom“</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> 
      <!--
        TEa9df69942f404055a64262889c8b21d3 
      --> </td> 
-    <td colname="col2"> <p> Für das Dynamic Tag Management ist die Funktion <span class="codeph">_satellite.pageBottom()</span> erforderlich. </p> <p>Es ist Best Practice, dass das Tag das <i>letzte</i> Tag im <span class="codeph"> &lt;body&gt;</span>ist. Wenn es im <span class="codeph"> &lt;body&gt;</span>-Tag gefunden wird, kann es eventuell funktionieren, doch da es sich hierbei nicht um eine Best Practice handelt, könnte es falsch oder mit unerwarteten bzw. unerwünschten Ergebnissen funktionieren. </p> </td> 
+    <td colname="col2"> <p> Für das Dynamic Tag Management ist die Funktion <span class="codeph">_satellite.pageBottom()</span> erforderlich. </p> <p>Es ist Best Practice, dass das Tag das <i>letzte</i> Tag im <span class="codeph"> &lt;body&gt;</span> ist. Wenn es im <span class="codeph"> &lt;body&gt;</span>-Tag gefunden wird, kann es eventuell funktionieren, doch da es sich hierbei nicht um eine Best Practice handelt, könnte es falsch oder mit unerwarteten bzw. unerwünschten Ergebnissen funktionieren. </p> </td> 
     <td colname="col3"> <p>Fügen Sie das Inline-Skript unmittelbar vor dem schließenden <span class="codeph"> &lt;/body&gt;</span>-Tag hinzu, um eine ordnungsgemäße DTM-Funktionalität sicherzustellen. </p> </td> 
    </tr> 
    <tr> 
@@ -81,9 +81,9 @@ Warnhinweise zeigen Probleme an, die Sie kennen sollten, aber sich nicht auf Ihr
 
 ## Konfiguration {#configuration}
 
-Diese Referenz enthält weitere Informationen zu den Tests, die Plattformprüfer zur Konfiguration durchführt.
+Diese Referenz enthält weitere Informationen zu den Tests, die Platform Auditor zur Konfiguration durchführt.
 
-Plattformprüfer bewertet die Tags anhand anderer Regeln und empfohlener Best Practices.
+Platform Auditor bewertet die Tags anhand anderer Regeln und empfohlener Best Practices.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
   <thead> 
@@ -121,7 +121,7 @@ Plattformprüfer bewertet die Tags anhand anderer Regeln und empfohlener Best Pr
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Analytics – Neueste Version</b> </p> <p>Gewichtung: 3 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
-    <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Analytics-Codebibliothek ausgeführt. Codebibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. Gibt 0 zurück, wenn kein Analytics-Code auf der Webseite gefunden wurde. </p> </td>       
+    <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Analytics-Codebibliothek ausgeführt. Code-Bibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. Gibt 0 zurück, wenn kein Analytics-Code auf der Webseite gefunden wurde. </p> </td>       
     <td colname="col3"> <p>Installieren Sie die aktuelle Version der Analytics-Bibliothek. </p> </td> 
    </tr> 
    <tr> 
@@ -136,12 +136,12 @@ Plattformprüfer bewertet die Tags anhand anderer Regeln und empfohlener Best Pr
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Experience Cloud ID-Service – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/tools/macid.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
-    <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Codebibliothek des Besucher-ID-Services <span class="codeph"> visitorAPI.js</span> ausgeführt. Codebibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
+    <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Codebibliothek des Besucher-ID-Services <span class="codeph"> visitorAPI.js</span> ausgeführt. Code-Bibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
     <td colname="col3"> <p>Installieren Sie die neueste Version der Besucher-ID-Service-Bibliothek. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Target – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://marketing.adobe.com/resources/help/de_DE/dtm/target/" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
-    <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Target-Codebibliothek ausgeführt. Codebibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
+    <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Target-Codebibliothek ausgeführt. Code-Bibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
     <td colname="col3"> <p>Installieren Sie die aktuelle Version der Target-Bibliothek. </p> </td> 
    </tr> 
    <tr> 
@@ -161,9 +161,9 @@ Plattformprüfer bewertet die Tags anhand anderer Regeln und empfohlener Best Pr
 
 ## Tag-Konsistenz {#tag-consistency}
 
-Dieser Verweis enthält weitere Informationen zu den Tests, die Plattformprüfer zur Konsistenz von Tags durchführt.
+Diese Referenz enthält weitere Informationen zu den Tests, die Platform Auditor für die Tag-Konsistenz durchführt.
 
-Plattformprüfer bewertet, ob die Tags über URLs hinweg konsistent sind.
+Platform Auditor wertet aus, ob die Tags über URLs hinweg konsistent sind.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
   <thead> 
@@ -186,9 +186,9 @@ Plattformprüfer bewertet, ob die Tags über URLs hinweg konsistent sind.
 
 ## Tag-Präsenz {#tag-presence}
 
-Diese Referenz enthält weitere Informationen zu den Tests, die Plattform-Auditor für Tag-Präsenz durchführt.
+Diese Referenz enthält weitere Informationen zu den Tests, die Platform Auditor für die Tag-Präsenz durchführt.
 
-Platform Auditor bewertet, ob das Tag vorhanden ist, ob es sich an der richtigen Stelle im Seiten-Code befindet usw.
+Platform Auditor wertet aus, ob das Tag vorhanden ist, ob es sich an der richtigen Stelle im Seiten-Code befindet usw.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
   <thead> 
@@ -202,12 +202,12 @@ Platform Auditor bewertet, ob das Tag vorhanden ist, ob es sich an der richtigen
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud – Codepräsenz</b> </p> <p>Gewichtung: 5 </p> </td> 
     <td colname="col2"> <p> Das Advertising Cloud-Tag ist im DOM nicht verfügbar. </p> </td> 
-    <td colname="col3"> <p>Implementieren Sie das Advertising Cloud-Tag mit der Advertising Cloud Extension for Platform Launch. </p> </td> 
+    <td colname="col3"> <p>Implementieren Sie das Advertising Cloud-Tag mit der Advertising Cloud-Erweiterung für Platform Launch. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud – Segmentpixel sind implementiert</b> </p> <p>Gewichtung: 5 </p> </td> 
     <td colname="col2"> <p> Aktualisieren Sie Ihre Advertising Cloud-Segmentpixel auf die neuen „Nur Bild“-Tags der Advertising Cloud. Die Verwendung der nicht mehr unterstützten AMO-Segment-Tags kann zu Datenverlust führen. </p> </td> 
-    <td colname="col3"> <p>Implementieren Sie das Advertising Cloud-Segmentpixel mit der Advertising Cloud Extension for Platform Launch. </p> </td> 
+    <td colname="col3"> <p>Implementieren Sie das Advertising Cloud-Segmentpixel mit der Advertising Cloud-Erweiterung für Platform Launch. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Analytics – Ist in DOM geladen</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/home.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
