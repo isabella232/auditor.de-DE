@@ -1,23 +1,23 @@
 ---
-description: Diese Referenz enthält weitere Informationen zu den Tests, die Adobe Experience Platform Auditor zur Konfiguration durchführt.
-seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die Adobe Experience Platform Auditor zur Konfiguration durchführt.
+description: Diese Referenz enthält weitere Informationen zu den Tests, die Adobe Experience Platform Auditor für die Konfiguration durchführt.
+seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die Adobe Experience Platform Auditor für die Konfiguration durchführt.
 seo-title: Konfiguration
 title: Konfiguration
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Konfiguration
 
-Diese Referenz enthält weitere Informationen zu den Tests, die Adobe Experience Platform Auditor zur Konfiguration durchführt.
+Diese Referenz enthält weitere Informationen zu den Tests, die Adobe Experience Platform Auditor für die Konfiguration durchführt.
 
-Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglichen Konflikten in Ihrer Implementierung gesucht. Plattformprüfer bewertet die Tags anhand anderer Regeln und empfohlener Best Practices.
+Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglichen Konflikten in Ihrer Implementierung gesucht. Platform Auditor bewertet die Tags anhand anderer Regeln und empfohlener Best Practices.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -73,7 +73,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
     <!--
       1.0.1 
     --> <p><b>Analytics – Neueste Version</b> </p> <p>Gewichtung: 3 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
-   <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Analytics-Codebibliothek ausgeführt. Codebibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. Gibt 0 zurück, wenn kein Analytics-Code auf der Webseite gefunden wurde. </p> </td> 
+   <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Analytics-Codebibliothek ausgeführt. Code-Bibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. Gibt 0 zurück, wenn kein Analytics-Code auf der Webseite gefunden wurde. </p> </td> 
    <td colname="col3"> <p>Installieren Sie die aktuelle Version der Analytics-Bibliothek. </p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
     <!--
       1.0.1 
     --> <p><b>Experience Cloud ID-Service – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/tools/macid.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
-   <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Codebibliothek des Besucher-ID-Services <span class="codeph"> visitorAPI.js</span> ausgeführt. Codebibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
+   <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Codebibliothek des Besucher-ID-Services <span class="codeph"> visitorAPI.js</span> ausgeführt. Code-Bibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
    <td colname="col3"> <p>Installieren Sie die neueste Version der Besucher-ID-Service-Bibliothek. </p> </td> 
   </tr> 
   <tr> 
@@ -97,15 +97,15 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
     <!--
       1.0.1 
     --> <p><b>Launch – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
-   <td colname="col2"> <p>Auf diesen Seiten wird nicht die neueste Version der Plattform-Start-Codebibliothek (Turbine) ausgeführt. Codebibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
-   <td colname="col3"> <p> Aktualisieren Sie die Plattform-Startbibliothek, indem Sie die Plattform-Startbibliothek neu erstellen und veröffentlichen. </p> </td> 
+   <td colname="col2"> <p>Auf diesen Seiten wird nicht die neueste Version der Platform Launch-Code-Bibliothek (Turbine) ausgeführt. Code-Bibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
+   <td colname="col3"> <p> Aktualisieren Sie die Platform Launch-Bibliothek, indem Sie sie neu erstellen und veröffentlichen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Target – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
-   <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Target-Codebibliothek ausgeführt. Codebibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
+   <td colname="col2"> <p> Auf Ihren Seiten wird nicht die neueste Version der Target-Codebibliothek ausgeführt. Code-Bibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
    <td colname="col3"> <p>Installieren Sie die aktuelle Version der Target-Bibliothek. </p> </td> 
   </tr> 
   <tr> 
