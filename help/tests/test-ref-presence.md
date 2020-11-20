@@ -4,11 +4,11 @@ seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die
 seo-title: Tag-Präsenz
 title: Tag-Präsenz
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '958'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 79%
 
 Diese Referenz enthält weitere Informationen zu den Tests, die Adobe Experience Platform Auditor für die Tag-Präsenz durchführt.
 
-Platform Auditor bewertet, ob das Tag vorhanden ist und ob es sich an der richtigen Stelle im Seiten-Code befindet.
+Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen Stelle im Seiten-Code befindet.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -36,7 +36,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und ob es sich an der richti
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud – Segmentpixel sind implementiert</b> </p> <p>Gewichtung: 5 </p> </td> 
    <td colname="col2"> <p> Aktualisieren Sie Ihre Advertising Cloud-Segmentpixel auf die neuen „Nur Bild“-Tags der Advertising Cloud. Die Verwendung der nicht mehr unterstützten AMO-Segment-Tags kann zu Datenverlust führen. </p> </td> 
-   <td colname="col3"> <p>Implementieren Sie das Advertising Cloud-Segmentpixel mit der Advertising Cloud Extension for Platform Launch. </p> </td> 
+   <td colname="col3"> <p>Implementieren Sie das Advertising Cloud-Segmentpixel mit der Advertising Cloud-Erweiterung für Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analytics – Ist in DOM geladen</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/home.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
@@ -96,15 +96,15 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und ob es sich an der richti
     <!--
       1.0.5 
     --> <p><b> Launch – Bibliothek ist geladen</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
-   <td colname="col2"> <p> Ein globales „_satellite“-Objekt wurde im DOM nicht gefunden. Plattformstart ist entweder nicht installiert oder kann nicht ausgeführt werden. </p> </td> 
-   <td colname="col3"> <p>Vergewissern Sie sich, dass die Plattformstartbibliothek auf der Seite implementiert ist und nicht durch nachfolgende Skript-Aktivitäten blockiert wird. </p> </td> 
+   <td colname="col2"> <p> Ein globales „_satellite“-Objekt wurde im DOM nicht gefunden. Platform Launch ist entweder nicht installiert oder kann nicht ausgeführt werden. </p> </td> 
+   <td colname="col3"> <p>Vergewissern Sie sich, dass die Platform Launch-Bibliothek auf der Seite implementiert ist und nicht von nachfolgenden Skriptaktivitäten blockiert wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch – Nicht mehrere Einbettungsskripte angeben</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
-   <td colname="col2"> <p>Auf der Seite sollten nicht mehrere Einbettungsskripte geladen werden. Produktions-Sites sollten nur eine Plattform-Startbibliothek laden. </p> </td> 
+   <td colname="col2"> <p>Auf der Seite sollten nicht mehrere Einbettungsskripte geladen werden. Produktions-Sites sollten nur eine Platform Launch-Bibliothek laden. </p> </td> 
    <td colname="col3"> <p>Vergewissern Sie sich, dass nur die Produktionsbibliothek auf der Seite geladen wird. </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und ob es sich an der richti
     <!--
       1.0.5 
     --> <p><b>Launch – Rückruf „pageBottom“ ist in &lt;body&gt; vorhanden</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
-   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>Dieser Test schlägt fehl, wenn der <span class="codeph"> pageBottom </span>-Aufruf überhaupt nicht auf der Seite gefunden wird oder sich im <span class="codeph"> &lt;head&gt;</span>-Tag (oder an einer anderen unerwarteten Position) befindet. Der Test gilt nur als bestanden, wenn <span class="codeph"> pageBottom</span> irgendwo im <span class="codeph"> &lt;body&gt;</span>-Tag gefunden wird. Wenn es sich überhaupt nicht auf der Seite befindet, funktioniert diese nicht und die anderen beiden <span class="codeph"> pageBottom</span>-Tests schlagen ebenfalls fehl. </p> </td> 
-   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p> Der Rückruf <span class="codeph"> _satellite.pageBottom()</span> wurde im <span class="codeph"> &lt;body&gt;</span> der Seite nicht gefunden, ist aber für Platform Launch erforderlich. </p> <p>Dieser Test schlägt fehl, wenn der <span class="codeph"> pageBottom </span>-Aufruf überhaupt nicht auf der Seite gefunden wird oder sich im <span class="codeph"> &lt;head&gt;</span>-Tag (oder an einer anderen unerwarteten Position) befindet. Der Test gilt nur als bestanden, wenn <span class="codeph"> pageBottom</span> irgendwo im <span class="codeph"> &lt;body&gt;</span>-Tag gefunden wird. Wenn es sich überhaupt nicht auf der Seite befindet, funktioniert diese nicht und die anderen beiden <span class="codeph"> pageBottom</span>-Tests schlagen ebenfalls fehl. </p> </td> 
+   <td colname="col3"> <p>Fügen Sie das Inline-Skript unmittelbar vor dem schließenden <span class="codeph"> &lt;/body&gt;</span>-Tag hinzu, um eine ordnungsgemäße Platform Launch-Funktion sicherzustellen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch – Rückruf „pageBottom“ sollte bei asynchroner Bereitstellung nicht vorhanden sein</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
-   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p>Der Rückruf <span class="codeph"> _satellite.pageBottom()</span> wurde auf der Seite gefunden, was bei asynchroner Bereitstellung von Platform Launch nicht der Fall sein sollte. </p> </td> 
+   <td colname="col3"> <p>Entfernen Sie das Skript <span class="codeph">_satellite.pageBottom()</span>, um die ordnungsgemäße Platform Launch-Funktion zu aktivieren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
