@@ -4,11 +4,11 @@ seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die
 seo-title: Testreferenz
 title: Testreferenz
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Es wird **dringend empfohlen**, Ergebnisse der Stufe 4 oder 5 zu korrigieren.
 
 Es wird **empfohlen**, Ergebnisse der Stufen 1 bis 3 zu korrigieren.
 
-## Which Adobe technologies does Platform Auditor grade? {#section-52833b71c05448aaae508e6070a387f5}
+## Welche Adobe-Technologien werden von Platform Auditor bewertet? {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud Search
