@@ -4,11 +4,11 @@ seo-description: Einschlussfilter beschränken, welche Links eine Prüfung von d
 seo-title: Ein- und Ausschlussfilter
 title: Ein- und Ausschlussfilter
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Ein- und Ausschlussfilter enthalten Richtlinien für Prüfungen. Wenn Sie die Fe
 
 Indem Sie Ein- oder Ausschlussfilter bzw. eine Kombination aus beiden anwenden, können Anweisungen gegeben werden, welche Links bei einer Prüfung durchsucht werden können.
 
-Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
+Jedes Element im Feld für [!UICONTROL Einschlussfilter] beschränkt die Prüfung auf die Seiten, die mit diesem Element übereinstimmen. Jedes Element im Feld für [!UICONTROL Ausschlussfilter] verhindert, dass Seiten, die diesem Element entsprechen, geprüft werden.
 
 Ein- und Ausschlussfilter können vollständige URLs, Teil-URLs oder reguläre Ausdrücke sein, die einer gültigen Seite entsprechen.
 
@@ -76,9 +76,9 @@ Standardmäßig werden bei einer Prüfung alle Subdomänen der Start-URL geprüf
 
 Dadurch kann jeder Link, der auf der Startseite der URL vorhanden ist, besucht werden. Dies entspricht jeder Seite aller Subdomänen der Start-URL.
 
-Durch die Verwendung des standardmäßigen Einschlussfilters entsteht ein breiter Bereich, der bei einer Prüfung durchsucht werden kann. Wenn Sie sich bestimmten Abschnitten oder Seiten widmen möchten, geben Sie bestimmte Richtungen für Ihre Prüfung an, indem Sie in diesem Feld Filter hinzufügen. Ersetzen Sie in diesem Fall den Standardwert durch die Ordner, die geprüft werden sollen. Sie können auch Filter einschließen verwenden, um domänenübergreifende Prüfungen durchzuführen, bei denen Sie die Prüfung auf einer Domäne und auf einer anderen beenden müssen. Geben Sie dazu die Domänen ein, die Sie durchlaufen möchten. In jedem Fall müssen Filter-URLs mit einschließen auf einer geprüften Seite gefunden werden.
+Durch die Verwendung des standardmäßigen Einschlussfilters entsteht ein breiter Bereich, der bei einer Prüfung durchsucht werden kann. Wenn Sie sich bestimmten Abschnitten oder Seiten widmen möchten, geben Sie bestimmte Richtungen für Ihre Prüfung an, indem Sie in diesem Feld Filter hinzufügen. Ersetzen Sie in diesem Fall den Standardwert durch die Ordner, die geprüft werden sollen. Sie können Einschlussfilter auch verwenden, um domänenübergreifende Prüfungen durchzuführen, bei denen die Prüfung in einer Domain starten und in einer anderen enden soll. Geben Sie dazu die Domains ein, die Sie durchlaufen möchten. In jedem Fall müssen Einschlussfilter-URLs auf einer geprüften Seite angezeigt werden, damit sie gefunden werden können.
 
-Die Include-Filter können exakte URLs, teilweise URLs oder reguläre Ausdruck enthalten. Wenn die Start-URL beispielsweise [!DNL http://mysite.com] lautet, können folgende Seiten standardmäßig geprüft werden (beachten Sie die fett gedruckten Zeichen):
+Einschlussfilter können exakte URLs, Teil-URLs oder reguläre Ausdrücke enthalten. Wenn die Start-URL beispielsweise [!DNL http://mysite.com] lautet, können folgende Seiten standardmäßig geprüft werden (beachten Sie die fett gedruckten Zeichen):
 
 ```html
 http://mysite.com
