@@ -4,11 +4,11 @@ seo-description: Erste Schritte mit Adobe Experience Platform Auditor
 seo-title: Erste Schritte
 title: Erste Schritte
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 64%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] wurde als Zusammenarbeit zwischen [!DNL Adobe] und [!DNL ObservePoint]entwickelt. Plattformprüfer können die eingeschränkte ObservePoint-Funktionalität ohne zusätzliche Kosten verwenden. Zur Verwendung von Platform Auditor müssen Sie sich für die Kommunikation von ObservePoint entscheiden.
+Wenn Sie [!DNL Adobe Experience Platform Auditor]zum ersten Mal verwenden, müssen Sie die [!DNL Platform Auditor]-Vereinbarung abschließen und akzeptieren. [!DNL Platform Auditor] wurde in Zusammenarbeit zwischen [!DNL Adobe] und [!DNL ObservePoint] entwickelt. Platform Auditor-Benutzer können die eingeschränkte ObservePoint-Funktionalität ohne zusätzliche Kosten verwenden. Um Platform Auditor zu verwenden, müssen Sie sich für die Kommunikation von ObservePoint anmelden.
 
 ## Ausführen der ersten Prüfung {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ The first time you use [!DNL Adobe Experience Platform Auditor], you must comple
 
    ![](assets/activate.png)
 
-1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
+1. Wählen Sie **[!UICONTROL Auditor]** und akzeptieren Sie die Nutzungsbedingungen.
 
-   Auf der Seite &quot;Plattformprüfer&quot;finden Sie ein Dashboard der vorherigen Prüfungen sowie die Option, eine neue Prüfung auszuführen.
+   Auf der Platform Auditor-Seite finden Sie ein Dashboard mit vorherigen Prüfungen sowie die Option, eine neue Prüfung auszuführen.
 
    ![](assets/home.png)
 
