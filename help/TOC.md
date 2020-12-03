@@ -7,9 +7,9 @@ user-guide-title: Hilfe zu Experience Platform Auditor
 user-guide-description: Erstellen Sie einen Bericht, der Ihre Adobe Experience Cloud-Implementierung bewertet und Hinweise zur Verbesserung enthält.
 breadcrumb-title: Handbuch für Platform Auditor
 breadcrumb-url: /docs/auditor/using/overview.html
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 100%
 
