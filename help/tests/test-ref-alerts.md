@@ -107,7 +107,7 @@ Warnhinweise zeigen Probleme an, die Sie kennen sollten, aber sich nicht auf Ihr
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch – Self-Hosting</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Erste Schritte mit Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Asynchrone Implementierung von Platform Launch</a> </p> </td> 
+    --> <p><b>Launch – Self-Hosting</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Erste Schritte mit Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Asynchrone Implementierung von Platform Launch</a> </p> </td> 
    <td colname="col2"> <p>Die Platform Launch-Bibliothek wird auf der Akamai-Instanz von Adobe unter <span class="filepath"> assets.adobedtm.com</span> gehostet. </p> <p>Das Self-Hosting ist der empfohlene Ansatz zum Laden von Platform Launch, da es die Leistung von Websites durch Cache-Steuerung, Reduzierung der Skriptabhängigkeiten von Drittanbietern und bessere Steuerung des Veröffentlichungsprozesses verbessert. Die Platform Launch-Bibliotheken können über Ihr eigenes Web-Hosting oder CDN gehostet und verwaltet werden. </p> </td> 
    <td colname="col3"> <p>Obwohl das Platform Launch-Hosting über das Akamai CDN in den meisten Fällen funktioniert, wird empfohlen, das Self-Hosting als ersten Schritt zur Verbesserung der Seitenleistung zu implementieren. </p> </td> 
   </tr> 
@@ -115,7 +115,7 @@ Warnhinweise zeigen Probleme an, die Sie kennen sollten, aber sich nicht auf Ihr
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch – Sollte asynchron bereitgestellt werden</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Launch – Sollte asynchron bereitgestellt werden</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Platform Launch sollte asynchron bereitgestellt werden, um optimale Leistung zu erzielen. </p> </td> 
    <td colname="col3"> <p>Fügen Sie den „async“-Parameter in das Inline-Skript ein, um die ordnungsgemäße asynchrone Platform Launch-Funktion sicherzustellen. </p> </td> 
   </tr> 
