@@ -145,12 +145,12 @@ Platform Auditor bewertet die Tags anhand anderer Regeln und empfohlener Best Pr
     <td colname="col3"> <p>Installieren Sie die aktuelle Version der Target-Bibliothek. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Target – mboxDefault vor mboxCreate </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.translate.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    <td colname="col1"> <p><b>Target – mboxDefault vor mboxCreate </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
     <td colname="col2"> <p>Die ordnungsgemäße Verwendung von <span class="codeph"> mboxCreate</span> sieht in etwa so aus: </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Kundeninhalt--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
     <td colname="col3"> <p>Stellen Sie sicher, dass Sie ein <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span>-Tag einschließen, bevor Sie <span class="codeph"> mboxCreate()</span> aufrufen. „at.js“ fügt keins für Sie hinzu. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Target – Gültiger DOCTYPE</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.translate.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    <td colname="col1"> <p><b>Target – Gültiger DOCTYPE</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/mboxcreate-atjs.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
     <td colname="col2"> <p> Ein ungültiger DOCTYPE wurde erkannt. In diesem Szenario werden keine mboxes ausgelöst. </p> <p>Bei „at.js“ muss sich der DOCTYPE im Standardmodus befinden, sonst funktioniert Target nicht. </p> </td> 
     <td colname="col3"> <p>Aktualisieren Sie den DOCTYPE auf der Seite. </p> </td> 
    </tr> 
@@ -175,7 +175,7 @@ Platform Auditor wertet aus, ob die Tags über URLs hinweg konsistent sind.
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics – Konsistente Codeversion </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/home.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics – Konsistente Codeversion </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
     <td colname="col2"> <p> Es wurde mehr als eine Version des Analytics-Codes gefunden. </p> </td> 
     <td colname="col3"> <p>Ersetzen Sie alle Instanzen von Analytics durch die aktuelle Version. </p> </td> 
    </tr> 
@@ -210,7 +210,7 @@ Platform Auditor wertet aus, ob das Tag vorhanden ist, ob es sich an der richtig
     <td colname="col3"> <p>Implementieren Sie das Advertising Cloud-Segmentpixel mit der Advertising Cloud-Erweiterung für Platform Launch. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics – Ist in DOM geladen</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/home.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics – Ist in DOM geladen</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
     <td colname="col2"> <p> Das Adobe Analytics-Tag wurde nicht erkannt. </p> </td> 
     <td colname="col3"> <p>Installieren Sie die neueste Version von Analytics. </p> </td> 
    </tr> 
@@ -218,7 +218,7 @@ Platform Auditor wertet aus, ob das Tag vorhanden ist, ob es sich an der richtig
     <td colname="col1"> <p><b> DTM – Bibliothek ist geladen</b> </p> <p>Gewichtung: 5 </p> <p>Weitere Informationen: </p> <p> 
       <ul id="ul_7E706EBC2E4649A69732E6982E116E22"> 
        <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/admin/c-troubleshooting.html" format="html" scope="external"> DTM-Fehlerbehebung</a> </li> 
-       <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Kopf- und Fußzeilencode hinzufügen</a> </li> 
+       <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Kopf- und Fußzeilencode hinzufügen</a> </li> 
       </ul> </p> </td> 
     <td colname="col2"> <p> Ein globales „_satellite“-Objekt wurde im DOM nicht gefunden. Dynamic Tag Management ist entweder nicht installiert oder kann nicht ausgeführt werden. </p> </td> 
     <td colname="col3"> <p>Vergewissern Sie sich, dass die DTM-Bibliothek auf der Seite implementiert ist und nicht durch nachfolgende Skriptaktivitäten blockiert wird. </p> </td> 
@@ -229,17 +229,17 @@ Platform Auditor wertet aus, ob das Tag vorhanden ist, ob es sich an der richtig
     <td colname="col3"> <p>Vergewissern Sie sich, dass nur die Produktionsbibliothek auf der Seite geladen wird. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>DTM – Rückruf „pageBottom“ ist in &lt;body&gt; vorhanden</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    <td colname="col1"> <p><b>DTM – Rückruf „pageBottom“ ist in &lt;body&gt; vorhanden</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
     <td colname="col2"> <p> Der Rückruf <span class="codeph"> _satellite.pageBottom()</span> wurde im <span class="codeph"> &lt;body&gt;</span> der Seite nicht gefunden, ist aber dort für das Dynamic Tag Management erforderlich. </p> <p>Dieser Test schlägt fehl, wenn der <span class="codeph"> pageBottom </span>-Aufruf überhaupt nicht auf der Seite gefunden wird oder sich im <span class="codeph"> &lt;head&gt;</span>-Tag (oder an einer anderen unerwarteten Position) befindet. Der Test gilt nur als bestanden, wenn <span class="codeph"> pageBottom</span> irgendwo im <span class="codeph"> &lt;body&gt;</span>-Tag gefunden wird. Wenn es sich überhaupt nicht auf der Seite befindet, funktioniert diese nicht und die anderen beiden <span class="codeph"> pageBottom</span>-Tests schlagen ebenfalls fehl. </p> </td> 
     <td colname="col3"> <p>Fügen Sie das Inline-Skript unmittelbar vor dem schließenden <span class="codeph"> &lt;/body&gt;</span>-Tag hinzu, um eine ordnungsgemäße DTM-Funktionalität sicherzustellen. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>DTM – „pageBottom“-Tag wird ausgelöst</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    <td colname="col1"> <p><b>DTM – „pageBottom“-Tag wird ausgelöst</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
     <td colname="col2"> <p> Das DTM-Tag <span class="codeph"> pageBottom</span> wurde nicht erkannt. </p> <p>Dies kann vorkommen, wenn sich der Aufruf innerhalb einer <span class="codeph"> if</span>-Anweisung befindet, die in etwas Ähnliches wie <span class="codeph"> if (false) {_satellite.pageBottom()}</span> resultiert. Daher kann es vorkommen, dass das Tag vorhanden und richtig platziert ist, aber nicht ausgelöst wird. </p> </td> 
     <td colname="col3"> <p>Installieren Sie den DTM-Aufruf <span class="codeph"> pageBottom</span> auf jeder Seite. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Experience Cloud ID-Service – Cookiepräsenz</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/tools/macid.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    <td colname="col1"> <p><b>Experience Cloud ID-Service – Cookiepräsenz</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
     <td colname="col2"> <p> Das <span class="codeph"> AMCV_</span>-Cookie wurde nicht gefunden. Sie müssen ein Besucherobjekt aus dem Code <span class="codeph"> VisitorAPI.js</span> instanziieren. </p> </td> 
     <td colname="col3"> <p> Wenn es sich um eine DTM-Implementierung handelt, stellen Sie sicher, dass die AdobeOrg-ID korrekt in das MCID-Tool eingegeben wurde. </p> </td> 
    </tr> 
