@@ -4,14 +4,14 @@ seo-description: Informationen zu Adobe Experience Platform Auditor-Tests
 seo-title: Testrubrik 1.0.1
 title: Testrubrik 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 115c762c-fce9-465f-a040-1ef81d4ad3f6
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '2727'
 ht-degree: 100%
 
 ---
-
 
 # Testrubrik 1.0.1 {#test-rubric}
 
@@ -111,7 +111,7 @@ Warnhinweise zeigen Probleme an, die Sie kennen sollten, aber sich nicht auf Ihr
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch – Self-Hosting</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Launch – Self-Hosting</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Die Platform Launch-Bibliothek wird auf der Akamai-Instanz von Adobe unter <span class="filepath"> assets.adobedtm.com</span> gehostet. </p> <p>Das Self-Hosting ist der empfohlene Ansatz zum Laden von Platform Launch, da es die Leistung von Websites durch Cache-Steuerung, Reduzierung der Skriptabhängigkeiten von Drittanbietern und bessere Steuerung des Veröffentlichungsprozesses verbessert. Die Platform Launch-Bibliotheken können über Ihr eigenes Web-Hosting oder CDN gehostet und verwaltet werden. </p> </td> 
    <td colname="col3"> <p>Obwohl das Platform Launch-Hosting über das Akamai CDN in den meisten Fällen funktioniert, wird empfohlen, das Self-Hosting als ersten Schritt zur Verbesserung der Seitenleistung zu implementieren. </p> </td> 
   </tr> 
@@ -119,7 +119,7 @@ Warnhinweise zeigen Probleme an, die Sie kennen sollten, aber sich nicht auf Ihr
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch – Sollte asynchron bereitgestellt werden</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Launch – Sollte asynchron bereitgestellt werden</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Platform Launch sollte asynchron bereitgestellt werden, um optimale Leistung zu erzielen. </p> </td> 
    <td colname="col3"> <p>Fügen Sie den „async“-Parameter in das Inline-Skript ein, um die ordnungsgemäße asynchrone Platform Launch-Funktion sicherzustellen. </p> </td> 
   </tr> 
@@ -185,7 +185,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Analytics – Ist einmal instanziiert</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Analytics – Ist einmal instanziiert</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/home.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Der Adobe Analytics-Code wurde mehrmals auf der Seite erkannt. Gibt 0 zurück, wenn kein Analytics-Code auf der Webseite gefunden wurde. </p> </td> 
    <td colname="col3"> <p>Stellen Sie sicher, dass nur ein Analytics-Tag auf der Seite vorhanden ist. </p> </td> 
   </tr> 
@@ -217,7 +217,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Launch – Neueste Version</b> </p> <p>Gewichtung: 2 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Auf diesen Seiten wird nicht die neueste Version der Platform Launch-Code-Bibliothek (Turbine) ausgeführt. Code-Bibliotheken, die Experience Cloud-Technologien nutzen, werden ständig aktualisiert und optimiert, um Leistungsverbesserungen und neueste Funktionen bereitzustellen. </p> </td> 
    <td colname="col3"> <p> Aktualisieren Sie die Platform Launch-Bibliothek, indem Sie sie neu erstellen und veröffentlichen. </p> </td> 
   </tr> 
@@ -233,7 +233,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Target – mboxDefault vor mboxCreate </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Target – mboxDefault vor mboxCreate </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/target/using/implement-target/implementing-target.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Die ordnungsgemäße Verwendung von <span class="codeph"> mboxCreate</span> sieht in etwa so aus: </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Kundeninhalt--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
    <td colname="col3"> <p>Stellen Sie sicher, dass Sie ein <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span>-Tag einschließen, bevor Sie <span class="codeph"> mboxCreate()</span> aufrufen. „at.js“ fügt keins für Sie hinzu. </p> </td> 
   </tr> 
@@ -241,7 +241,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Target – Gültiger DOCTYPE</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Target – Gültiger DOCTYPE</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/target/using/implement-target/implementing-target.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Ein ungültiger DOCTYPE wurde erkannt. In diesem Szenario werden keine mboxes ausgelöst. </p> <p>Bei „at.js“ muss sich der DOCTYPE im Standardmodus befinden, sonst funktioniert Target nicht. </p> </td> 
    <td colname="col3"> <p>Aktualisieren Sie den DOCTYPE auf der Seite. </p> </td> 
   </tr> 
@@ -267,7 +267,7 @@ Die Platform Auditor-Konsistenztests suchen Inkonsistenzen auf allen geprüften 
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Analytics – Konsistente Codeversion </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Analytics – Konsistente Codeversion </b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/home.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Es wurde mehr als eine Version des Analytics-Codes gefunden. </p> </td> 
    <td colname="col3"> <p>Ersetzen Sie alle Instanzen von Analytics durch die aktuelle Version. </p> </td> 
   </tr> 
@@ -309,7 +309,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Analytics – Ist in DOM geladen</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Analytics – Ist in DOM geladen</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/home.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Das Adobe Analytics-Tag wurde nicht erkannt. </p> </td> 
    <td colname="col3"> <p>Installieren Sie die neueste Version von Analytics. </p> </td> 
   </tr> 
@@ -320,7 +320,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
     --> <p><b> DTM – Bibliothek ist geladen</b> </p> <p>Gewichtung: 5 </p> <p>Weitere Informationen: </p> <p> 
      <ul id="ul_7E706EBC2E4649A69732E6982E116E22"> 
       <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/admin/c-troubleshooting.html" format="html" scope="external"> DTM-Fehlerbehebung</a> </li> 
-      <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Kopf- und Fußzeilencode hinzufügen</a> </li> 
+      <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Kopf- und Fußzeilencode hinzufügen</a> </li> 
      </ul> </p> </td> 
    <td colname="col2"> <p> Ein globales „_satellite“-Objekt wurde im DOM nicht gefunden. Dynamic Tag Management ist entweder nicht installiert oder kann nicht ausgeführt werden. </p> </td> 
    <td colname="col3"> <p>Vergewissern Sie sich, dass die DTM-Bibliothek auf der Seite implementiert ist und nicht durch nachfolgende Skriptaktivitäten blockiert wird. </p> </td> 
@@ -337,7 +337,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>DTM – Rückruf „pageBottom“ ist in &lt;body&gt; vorhanden</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>DTM – Rückruf „pageBottom“ ist in &lt;body&gt; vorhanden</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Der Rückruf <span class="codeph"> _satellite.pageBottom()</span> wurde im <span class="codeph"> &lt;body&gt;</span> der Seite nicht gefunden, ist aber dort für das Dynamic Tag Management erforderlich. </p> <p>Dieser Test schlägt fehl, wenn der <span class="codeph"> pageBottom </span>-Aufruf überhaupt nicht auf der Seite gefunden wird oder sich im <span class="codeph"> &lt;head&gt;</span>-Tag (oder an einer anderen unerwarteten Position) befindet. Der Test gilt nur als bestanden, wenn <span class="codeph"> pageBottom</span> irgendwo im <span class="codeph"> &lt;body&gt;</span>-Tag gefunden wird. Wenn es sich überhaupt nicht auf der Seite befindet, funktioniert diese nicht und die anderen beiden <span class="codeph"> pageBottom</span>-Tests schlagen ebenfalls fehl. </p> </td> 
    <td colname="col3"> <p>Fügen Sie das Inline-Skript unmittelbar vor dem schließenden <span class="codeph"> &lt;/body&gt;</span>-Tag hinzu, um eine ordnungsgemäße DTM-Funktionalität sicherzustellen. </p> </td> 
   </tr> 
@@ -345,7 +345,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>DTM – „pageBottom“-Tag wird ausgelöst</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>DTM – „pageBottom“-Tag wird ausgelöst</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Das DTM-Tag <span class="codeph"> pageBottom</span> wurde nicht erkannt. </p> <p>Dies kann vorkommen, wenn sich der Aufruf innerhalb einer <span class="codeph"> if</span>-Anweisung befindet, die in etwas Ähnliches wie <span class="codeph"> if (false) {_satellite.pageBottom()}</span> resultiert. Daher kann es vorkommen, dass das Tag vorhanden und richtig platziert ist, aber nicht ausgelöst wird. </p> </td> 
    <td colname="col3"> <p>Installieren Sie den DTM-Aufruf <span class="codeph"> pageBottom</span> auf jeder Seite. </p> </td> 
   </tr> 
@@ -377,7 +377,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b> Launch – Bibliothek ist geladen</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b> Launch – Bibliothek ist geladen</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Ein globales „_satellite“-Objekt wurde im DOM nicht gefunden. Launch ist entweder nicht installiert oder kann nicht ausgeführt werden. </p> </td> 
    <td colname="col3"> <p>Vergewissern Sie sich, dass die Platform Launch-Bibliothek auf der Seite implementiert ist und nicht von nachfolgenden Skriptaktivitäten blockiert wird. </p> </td> 
   </tr> 
@@ -385,7 +385,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch – Nicht mehrere Einbettungsskripte angeben</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Launch – Nicht mehrere Einbettungsskripte angeben</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Auf der Seite sollten nicht mehrere Einbettungsskripte geladen werden. Produktions-Sites sollten nur eine Platform Launch-Bibliothek laden. </p> </td> 
    <td colname="col3"> <p>Vergewissern Sie sich, dass nur die Produktionsbibliothek auf der Seite geladen wird. </p> </td> 
   </tr> 
@@ -393,7 +393,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch – Rückruf „pageBottom“ ist in &lt;body&gt; vorhanden</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Launch – Rückruf „pageBottom“ ist in &lt;body&gt; vorhanden</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Der Rückruf <span class="codeph"> _satellite.pageBottom()</span> wurde im <span class="codeph"> &lt;body&gt;</span> der Seite nicht gefunden, ist aber für Platform Launch erforderlich. </p> <p>Dieser Test schlägt fehl, wenn der <span class="codeph"> pageBottom </span>-Aufruf überhaupt nicht auf der Seite gefunden wird oder sich im <span class="codeph"> &lt;head&gt;</span>-Tag (oder an einer anderen unerwarteten Position) befindet. Der Test gilt nur als bestanden, wenn <span class="codeph"> pageBottom</span> irgendwo im <span class="codeph"> &lt;body&gt;</span>-Tag gefunden wird. Wenn es sich überhaupt nicht auf der Seite befindet, funktioniert diese nicht und die anderen beiden <span class="codeph"> pageBottom</span>-Tests schlagen ebenfalls fehl. </p> </td> 
    <td colname="col3"> <p>Fügen Sie das Inline-Skript unmittelbar vor dem schließenden <span class="codeph"> &lt;/body&gt;</span>-Tag hinzu, um eine ordnungsgemäße Platform Launch-Funktion sicherzustellen. </p> </td> 
   </tr> 
@@ -401,7 +401,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch – Rückruf „pageBottom“ sollte bei asynchroner Bereitstellung nicht vorhanden sein</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Launch – Rückruf „pageBottom“ sollte bei asynchroner Bereitstellung nicht vorhanden sein</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Der Rückruf <span class="codeph"> _satellite.pageBottom()</span> wurde auf der Seite gefunden, was bei asynchroner Bereitstellung von Platform Launch nicht der Fall sein sollte. </p> </td> 
    <td colname="col3"> <p>Entfernen Sie das Skript <span class="codeph">_satellite.pageBottom()</span>, um die ordnungsgemäße Platform Launch-Funktion zu aktivieren. </p> </td> 
   </tr> 
@@ -409,7 +409,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Target – Codepräsenz</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Target – Codepräsenz</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/target/using/implement-target/implementing-target.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Target sollte im DOM definiert sein. </p> </td> 
    <td colname="col3"> <p>Installieren Sie die neueste Version von Target (at.js). </p> </td> 
   </tr> 
@@ -417,7 +417,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Target – Bibliothek wird in &lt;head&gt; geladen</b> </p> <p>Gewichtung: 4 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> Weitere Informationen</a> </p> 
+    --> <p><b>Target – Bibliothek wird in &lt;head&gt; geladen</b> </p> <p>Gewichtung: 4 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/target/using/implement-target/implementing-target.html" format="html" scope="external"> Weitere Informationen</a> </p> 
     <!--
       TE61c380082a4b4706b28a84aa047599a7 
     --> </td> 
@@ -426,4 +426,3 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
   </tr> 
  </tbody> 
 </table>
-
