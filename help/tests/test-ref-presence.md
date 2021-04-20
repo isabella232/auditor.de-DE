@@ -4,14 +4,14 @@ seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die
 seo-title: Tag-Präsenz
 title: Tag-Präsenz
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: a6ac4d95-2f96-4abb-b39b-4dd0d8df5fe8
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '958'
 ht-degree: 100%
 
 ---
-
 
 # Tag-Präsenz
 
@@ -58,12 +58,12 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col3"> <p>Vergewissern Sie sich, dass nur die Produktionsbibliothek auf der Seite geladen wird. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>DTM – Rückruf „pageBottom“ ist in &lt;body&gt; vorhanden</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+   <td colname="col1"> <p><b>DTM – Rückruf „pageBottom“ ist in &lt;body&gt; vorhanden</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Der Rückruf <span class="codeph"> _satellite.pageBottom()</span> wurde im <span class="codeph"> &lt;body&gt;</span> der Seite nicht gefunden, ist aber dort für das Dynamic Tag Management erforderlich. </p> <p>Dieser Test schlägt fehl, wenn der <span class="codeph"> pageBottom </span>-Aufruf überhaupt nicht auf der Seite gefunden wird oder sich im <span class="codeph"> &lt;head&gt;</span>-Tag (oder an einer anderen unerwarteten Position) befindet. Der Test gilt nur als bestanden, wenn <span class="codeph"> pageBottom</span> irgendwo im <span class="codeph"> &lt;body&gt;</span>-Tag gefunden wird. Wenn es sich überhaupt nicht auf der Seite befindet, funktioniert diese nicht und die anderen beiden <span class="codeph"> pageBottom</span>-Tests schlagen ebenfalls fehl. </p> </td> 
    <td colname="col3"> <p>Fügen Sie das Inline-Skript unmittelbar vor dem schließenden <span class="codeph"> &lt;/body&gt;</span>-Tag hinzu, um eine ordnungsgemäße DTM-Funktionalität sicherzustellen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>DTM – „pageBottom“-Tag wird ausgelöst</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+   <td colname="col1"> <p><b>DTM – „pageBottom“-Tag wird ausgelöst</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Das DTM-<code> pageBottom</code>-Tag wurde nicht erkannt. </p> <p>Dies kann vorkommen, wenn sich der Aufruf in einer <code> if</code>-Anweisung befindet, deren Ergebnis in etwa <code> if (false) {_satellite.pageBottom()}</code>entspricht. Daher kann es vorkommen, dass das Tag vorhanden und richtig platziert ist, aber nicht ausgelöst wird. </p> </td> 
    <td colname="col3"> <p>Installieren Sie die DTM-<code> pageBottom</code>-Anweisung auf jeder Seite. </p> </td> 
   </tr> 
@@ -103,7 +103,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.5 
-    --> <p><b>Launch – Nicht mehrere Einbettungsskripte angeben</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Launch – Nicht mehrere Einbettungsskripte angeben</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Auf der Seite sollten nicht mehrere Einbettungsskripte geladen werden. Produktions-Sites sollten nur eine Platform Launch-Bibliothek laden. </p> </td> 
    <td colname="col3"> <p>Vergewissern Sie sich, dass nur die Produktionsbibliothek auf der Seite geladen wird. </p> </td> 
   </tr> 
@@ -111,7 +111,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.5 
-    --> <p><b>Launch – Rückruf „pageBottom“ ist in &lt;body&gt; vorhanden</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Launch – Rückruf „pageBottom“ ist in &lt;body&gt; vorhanden</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Der Rückruf <span class="codeph"> _satellite.pageBottom()</span> wurde im <span class="codeph"> &lt;body&gt;</span> der Seite nicht gefunden, ist aber für Platform Launch erforderlich. </p> <p>Dieser Test schlägt fehl, wenn der <span class="codeph"> pageBottom </span>-Aufruf überhaupt nicht auf der Seite gefunden wird oder sich im <span class="codeph"> &lt;head&gt;</span>-Tag (oder an einer anderen unerwarteten Position) befindet. Der Test gilt nur als bestanden, wenn <span class="codeph"> pageBottom</span> irgendwo im <span class="codeph"> &lt;body&gt;</span>-Tag gefunden wird. Wenn es sich überhaupt nicht auf der Seite befindet, funktioniert diese nicht und die anderen beiden <span class="codeph"> pageBottom</span>-Tests schlagen ebenfalls fehl. </p> </td> 
    <td colname="col3"> <p>Fügen Sie das Inline-Skript unmittelbar vor dem schließenden <span class="codeph"> &lt;/body&gt;</span>-Tag hinzu, um eine ordnungsgemäße Platform Launch-Funktion sicherzustellen. </p> </td> 
   </tr> 
@@ -119,7 +119,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col1"> 
     <!--
       1.0.5 
-    --> <p><b>Launch – Rückruf „pageBottom“ sollte bei asynchroner Bereitstellung nicht vorhanden sein</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Launch – Rückruf „pageBottom“ sollte bei asynchroner Bereitstellung nicht vorhanden sein</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p>Der Rückruf <span class="codeph"> _satellite.pageBottom()</span> wurde auf der Seite gefunden, was bei asynchroner Bereitstellung von Platform Launch nicht der Fall sein sollte. </p> </td> 
    <td colname="col3"> <p>Entfernen Sie das Skript <span class="codeph">_satellite.pageBottom()</span>, um die ordnungsgemäße Platform Launch-Funktion zu aktivieren. </p> </td> 
   </tr> 
@@ -132,7 +132,7 @@ Platform Auditor bewertet, ob das Tag vorhanden ist und sich an der richtigen St
    <td colname="col3"> <p>Installieren Sie die neueste Version von Target (at.js). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Target – Bibliothek wird in &lt;head&gt; geladen</b> </p> <p>Gewichtung: 4 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
+   <td colname="col1"> <p><b>Target – Bibliothek wird in &lt;head&gt; geladen</b> </p> <p>Gewichtung: 4 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/target/using/implement-target/implementing-target.html" format="html" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Die Target-Bibliothek sollte im Tag <span class="codeph"> &lt;head&gt;</span> geladen werden. </p> </td> 
    <td colname="col3"> <p> Vergewissern Sie sich, dass die Target-Bibliothek im Tag <span class="codeph"> &lt;head&gt;</span> geladen wird. </p> </td> 
   </tr> 
