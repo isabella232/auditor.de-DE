@@ -4,14 +4,14 @@ seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die
 seo-title: Konfiguration
 title: Konfiguration
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: e331d874-09f5-4a31-ad8c-6ee5d0849245
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '846'
 ht-degree: 100%
 
 ---
-
 
 # Konfiguration
 
@@ -64,7 +64,7 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Analytics – Ist einmal instanziiert</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
+    --> <p><b>Analytics – Ist einmal instanziiert</b> </p> <p>Gewichtung: 5 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/analytics/implementation/home.html" format="https" scope="external"> Weitere Informationen</a> </p> </td> 
    <td colname="col2"> <p> Der Adobe Analytics-Code wurde mehrmals auf der Seite erkannt. Gibt 0 zurück, wenn kein Analytics-Code auf der Webseite gefunden wurde. </p> </td> 
    <td colname="col3"> <p>Stellen Sie sicher, dass nur ein Analytics-Tag auf der Seite vorhanden ist. </p> </td> 
   </tr> 
@@ -126,4 +126,3 @@ Bei Konfigurationstests wird nach bestimmten Einstellungen, Werten oder möglich
   </tr> 
  </tbody> 
 </table>
-
