@@ -6,11 +6,9 @@ audience: end-user
 user-guide-title: Hilfe zu Experience Platform Auditor
 user-guide-description: Erstellen Sie einen Bericht, der Ihre Adobe Experience Cloud-Implementierung bewertet und Hinweise zur Verbesserung enthält.
 breadcrumb-title: Handbuch für Platform Auditor
-breadcrumb-url: /docs/auditor/using/overview.html
-translation-type: ht
-source-git-commit: 5dbbd05323172302682643de2e8ea867e2e186c6
-workflow-type: ht
-source-wordcount: '78'
+source-git-commit: 482974cda68b97d2ab7bc9420837ec38a65e45c0
+workflow-type: tm+mt
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
@@ -31,7 +29,7 @@ ht-degree: 100%
 + Tests {#tests}
    + [Testreferenz](tests/test-reference.md)
    + [Tag-Präsenz](tests/test-ref-presence.md)
-   + [Tagkonsistenz](tests/test-ref-consistency.md)
+   + [Tag-Konsistenz](tests/test-ref-consistency.md)
    + [Konfiguration](tests/test-ref-cfg.md)
    + [Warnhinweise](tests/test-ref-alerts.md)
    + Vorherige Testrubriken {#previous-rubrics}
