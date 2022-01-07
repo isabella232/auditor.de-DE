@@ -1,44 +1,17 @@
 ---
-description: Technische Dokumentation für Experience Platform Auditor.
-seo-description: Technische Dokumentation für Adobe Experience Platform Auditor.
-seo-title: 'Technische Dokumentation für Adobe Experience Platform Auditor '
-title: Überblick über Adobe Experience Platform Auditor – Technische Dokumentation
+title: Adobe Experience Platform Auditor – Übersicht
+description: Dieses Dokument behandelt Adobe Experience Platform Auditor und seine Nachfolger.
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
 exl-id: 326ae443-2974-4f0c-8c16-bfd2b8a6a70c
-translation-type: ht
-source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 9876e66a70de679cf9eadb8fcc911cccf9308f88
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 10%
 
 ---
 
-# Adobe Experience Platform Auditor – Übersicht {#adobe-experience-cloud-auditor}
+# Übersicht über Adobe Experience Platform Auditor {#adobe-experience-cloud-auditor}
 
-Adobe Experience Platform Auditor ist ein Dienst der Adobe Experience Platform, der gemeinsam mit [ObservePoint](https://www.observepoint.com/) – den Experten für die Validierung digitaler Implementierungen – entwickelt wurde. Dieses Handbuch enthält die technische Dokumentation und eigenständig durchzuführende Hilfemaßnahmen für Platform Auditor.
+Adobe Experience Platform Auditor war ein System, mit dem Sie Berichte generieren konnten, die Ihre Adobe Experience Cloud-Implementierung bewerten und Hinweise zur Verbesserung enthalten. Adobe Experience Platform Auditor hat das Ende der Lebensdauer (End of Life, EOL) erreicht und ist nicht mehr aktiv.
 
-Mit Platform Auditor erhalten Benutzer von Adobe Experience Cloud einen Bericht, der ihre Adobe Experience Cloud-Implementierung bewertet und Hinweise zur Verbesserung enthält. Mit Platform Auditor können Sie sowohl im Einzelfall als auch allgemein einen Mehrwert für Ihre Adobe-Produkte erzielen.
-
-Mit Platform Auditor können Sie:
-
-* **prüfen** – Sie können 500 Webseiten gleichzeitig auf Adobe-Technologie prüfen. Verwenden Sie erweiterte Filter, um bei Bedarf Seiten ein- oder auszuschließen. Sie können immer eine Prüfung gleichzeitig und eine unbegrenzte Anzahl von Prüfungen nacheinander durchführen.
-
-* **verstehen** – Sie erhalten einen Bericht, der Ihre Adobe-Implementierungen auf Grundlage von Tag-Präsenz, -Konfiguration und -Konsistenz bewertet.
-
-* **verbessern** – Sie erhalten Empfehlungen, wie Sie Ihre Implementierung zur Ausrichtung an Best Practices aktualisieren und so das gesamte Potenzial Ihrer Adobe-Investitionen nutzen können. Platform Auditor geht über Empfehlungen für einen breiten Rahmen hinaus und teilt Ihnen genau mit, was bei einer bestimmten Implementierung nicht stimmt, auf welcher Webseite das Problem auftritt und wie es zu beheben ist.
-
-Damit Ihre Website Ihr Geschäft und großartige Erlebnisse effektiv fördern kann, muss sie ordnungsgemäß implementiert werden. Andernfalls bietet die Software entweder nur einen Bruchteil des potenziellen Wertes oder überhaupt keinen.
-
-Die Pflege komplexer Implementierungen auf Websites in konstantem Wandel ist jedoch eine enorme Herausforderung. Platform Auditor macht aus dieser Herausforderung eine Chance, die die Rentabilität Ihrer Adobe-Investitionen erhöht.
-
-Durch die Möglichkeit, Fehler bei Ihren Implementierungen selbst zu beheben und zu korrigieren, erhalten Sie durch Platform Auditor eine bessere Kontrolle über Ihre Implementierungs-Tags und damit Ihre Daten. So müssen Sie sich bei Fragen zu Ihren Implementierungs-Tags weniger häufig an die Kundenunterstützung wenden.
-
-Platform Auditor wurde in Zusammenarbeit zwischen Adobe und ObservePoint entwickelt. Platform Auditor-Benutzer können die eingeschränkte ObservePoint-Funktionalität ohne zusätzliche Kosten verwenden. Um Platform Auditor zu verwenden, müssen Sie sich für die Kommunikation von ObservePoint anmelden.
-
-## Platform Auditor-Community-Forum {#section-59846f1856bc40aba23d02fdd9198e25}
-
-Wenn Sie Hilfe beim Einstieg benötigen, Fragen haben oder künftige Verbesserungen vorschlagen bzw. dafür abstimmen möchten, besuchen Sie das [Platform Auditor-Community-Forum](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor), um Kontakt mit Experten und Adobe aufzunehmen.
-
-## Versionsinformationen {#section-be3e331a123d40f185aa59f23f69355e}
-
-Informationen zur letzten Version finden Sie unter [Versionshinweise zu Platform Auditor](release-notes.md).
+Während das eigenständige System beendet wurde, können Sie dennoch alle Auditor-Tests mit der Browsererweiterung Adobe Experience Platform Debugger ausführen. Weitere Informationen finden Sie im Abschnitt [Dokumentation zu Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/experience-cloud-debugger.html?lang=de).
