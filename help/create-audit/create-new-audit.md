@@ -1,19 +1,18 @@
 ---
 description: Neue Prüfung in Adobe Experience Platform Auditor erstellen
-seo-description: Neue Prüfung in Adobe Experience Platform Auditor erstellen
-seo-title: Neue Prüfung in Adobe Experience Platform Auditor erstellen
+seo-description: Create a new audit in Adobe Experience Platform Auditor
+seo-title: Create a new audit in Adobe Experience Platform Auditor
 title: Neue Prüfung in Adobe Experience Platform Auditor erstellen
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
 exl-id: 1c4eed8e-4d49-49af-95c5-df13c9f13e4a
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '517'
+workflow-type: tm+mt
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
 
-# Neue Prüfung erstellen {#create-a-new-audit}
+# Neue Prüfung erstellen{#create-a-new-audit}
 
 >[!NOTE]
 >
@@ -48,7 +47,7 @@ Verwenden Sie den Link unten auf der Seite, wenn Sie möchten, um auf ein kosten
 
    Dieses Feld kann exakte URLs, Teil-URLs oder reguläre Ausdrücke enthalten. Verwenden Sie dieses Feld für Kriterien, denen jede URL entsprechen soll. Durchsuchte URLs, die nicht mit den Kriterien [!UICONTROL Einschlussfilter] übereinstimmen, werden nicht in die Prüfergebnisse aufgenommen.
 
-   Sie können Ordner eingeben, für die die Prüfung durchgeführt werden soll. Alternativ können Sie eine domänenübergreifende bzw. selbstverweisende Prüfung durchführen, bei denen die Prüfung in einer Domäne starten und in einer anderen enden soll. Geben Sie dazu die Domänen ein, die Sie durchlaufen möchten. Für komplexe URL-Muster verwenden Sie einen regulären Ausdruck.
+   Sie können Ordner eingeben, für die die Prüfung durchgeführt werden soll. Alternativ können Sie eine domänenübergreifende bzw. selbstverweisende Prüfung durchführen, bei denen die Prüfung in einer Domain starten und in einer anderen enden soll. Geben Sie dazu die Domänen ein, die Sie durchlaufen möchten. Für komplexe URL-Muster verwenden Sie einen regulären Ausdruck.
 
    >[!NOTE]
    >

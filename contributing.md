@@ -1,7 +1,6 @@
 ---
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-translation-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -26,7 +25,7 @@ Für alle Drittanbieterbeiträge zu diesem Projekt muss eine signierte Lizenzver
 
 ## Codeüberprüfungen
 
-Alle Übermittlungen sollten in Form von Pull-Anfragen eingehen und müssen von den Projektverantwortlichen geprüft werden. In der [GitHub-Dokumentation zu Pull-Anfragen](https://help.github.com/de/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+Alle Übermittlungen sollten in Form von Pull-Anfragen eingehen und müssen von den Projektverantwortlichen geprüft werden. In der [GitHub-Dokumentation zu Pull-Anfragen](https://help.github.com/de/articles/about-pull-requests/)
 finden Sie weitere Informationen zum Senden von Pull-Anfragen.
 
 <!--

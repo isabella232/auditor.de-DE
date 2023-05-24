@@ -1,19 +1,18 @@
 ---
 description: Diese Referenz enthält weitere Informationen zu den Warnhinweisen, die Adobe Experience Platform Auditor für Tests anzeigt.
-seo-description: Diese Referenz enthält weitere Informationen zu den Warnhinweisen, die Adobe Experience Platform Auditor für Tests anzeigt.
-seo-title: Warnhinweise
+seo-description: This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests.
+seo-title: Alerts
 title: Warnhinweise
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
 exl-id: 9e7ade9b-6f3c-4f1f-87b1-5dbaed63ae36
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '936'
+workflow-type: tm+mt
+source-wordcount: '920'
 ht-degree: 100%
 
 ---
 
-# Warnhinweise {#alerts}
+# Warnhinweise{#alerts}
 
 Diese Referenz enthält weitere Informationen zu den Warnhinweisen, die Adobe Experience Platform Auditor für Tests anzeigt.
 
@@ -101,13 +100,13 @@ Warnhinweise zeigen Probleme an, die Sie kennen sollten, aber sich nicht auf Ihr
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
    <td colname="col2"> <p>Platform Launch sollte über eine <span class="codeph">pageBottom</span>-Rückruffunktion verfügen, die zuletzt im Body der Seite definiert wird, wenn sie synchron bereitgestellt wird. </p> <p> <p>Hinweis: Es ist Best Practice, dass das Tag das <i>letzte</i> Tag im <span class="codeph"> &lt;body&gt;</span> ist. Wenn es im <span class="codeph"> &lt;body&gt;</span>-Tag gefunden wird, kann es eventuell funktionieren, doch da es sich hierbei nicht um eine Best Practice handelt, könnte es falsch oder mit unerwarteten bzw. unerwünschten Ergebnissen funktionieren. </p> </p> </td> 
-   <td colname="col3"> <p>Für Platform Launch ist die Funktion <span class="codeph"> _satellite.pageBottom()</span> für synchrone Implementierung erforderlich. Fügen Sie das Inline-Skript unmittelbar vor dem schließenden <span class="codeph"> &lt;/body&gt;</span>-Tag hinzu, um eine ordnungsgemäße Platform Launch-Funktion sicherzustellen. </p> </td> 
+   <td colname="col3"> <p>Für Platform Launch ist die Funktion <span class="codeph"> _satellite.pageBottom()</span> für synchrone Bereitstellung erforderlich. Fügen Sie das Inline-Skript unmittelbar vor dem schließenden <span class="codeph"> &lt;/body&gt;</span>-Tag hinzu, um eine ordnungsgemäße Platform Launch-Funktion sicherzustellen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch – Self-Hosting</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Erste Schritte mit Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Asynchrone Implementierung von Platform Launch</a> </p> </td> 
+    --> <p><b>Launch – Self-Hosting</b> </p> <p>Gewichtung: 0 </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Erste Schritte mit Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/de-DE/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external">Asynchrone Bereitstellung von Platform Launch</a> </p> </td> 
    <td colname="col2"> <p>Die Platform Launch-Bibliothek wird auf der Akamai-Instanz von Adobe unter <span class="filepath"> assets.adobedtm.com</span> gehostet. </p> <p>Das Self-Hosting ist der empfohlene Ansatz zum Laden von Platform Launch, da es die Leistung von Websites durch Cache-Steuerung, Reduzierung der Skriptabhängigkeiten von Drittanbietern und bessere Steuerung des Veröffentlichungsprozesses verbessert. Die Platform Launch-Bibliotheken können über Ihr eigenes Web-Hosting oder CDN gehostet und verwaltet werden. </p> </td> 
    <td colname="col3"> <p>Obwohl das Platform Launch-Hosting über das Akamai CDN in den meisten Fällen funktioniert, wird empfohlen, das Self-Hosting als ersten Schritt zur Verbesserung der Seitenleistung zu implementieren. </p> </td> 
   </tr> 

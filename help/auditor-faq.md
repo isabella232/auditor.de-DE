@@ -1,19 +1,18 @@
 ---
 description: Häufige Fragen und Antworten zum Adobe Experience Platform Auditor
-seo-description: Häufige Fragen und Antworten zum Adobe Experience Platform Auditor
-seo-title: Häufig gestellte Fragen zu Adobe Experience Platform Auditor
+seo-description: Common questions and answers about Adobe Experience Platform Auditor
+seo-title: Adobe Experience Platform Auditor FAQ
 title: Häufig gestellte Fragen zu Adobe Experience Platform Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
 exl-id: 75ab4497-5822-4f64-9b6d-6cbf13687e8d
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '990'
+workflow-type: tm+mt
+source-wordcount: '976'
 ht-degree: 100%
 
 ---
 
-# Häufig gestellte Fragen zu Adobe Experience Platform Auditor {#auditor-faq}
+# Häufig gestellte Fragen zu Adobe Experience Platform Auditor{#auditor-faq}
 
 Dieser Artikel enthält Antworten auf häufig gestellte Fragen zu Adobe Experience Platform Auditor.
 
@@ -31,7 +30,7 @@ Dieser Artikel enthält Antworten auf häufig gestellte Fragen zu Adobe Experien
 
 ## Was ist Adobe Experience Platform Auditor? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
 
-Platform Auditor ist ein Dienst der Adobe Experience Cloud, der gemeinsam mit ObservePoint – den Experten für die Validierung digitaler Implementierungen – entwickelt wurde.
+Platform Auditor ist ein Service der Adobe Experience Cloud, der gemeinsam mit ObservePoint – den Experten für die Validierung digitaler Implementierungen – entwickelt wurde.
 
 Mit Platform Auditor können Kunden bis zu 500 Webseiten gleichzeitig prüfen und einen Bericht erzeugen, der zeigt, wie sie ihre Adobe Experience Cloud-Implementierungen verbessern können, sodass sie das gesamte Potenzial ihrer Adobe-Investition nutzen können.
 

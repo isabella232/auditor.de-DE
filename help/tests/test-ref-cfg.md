@@ -1,14 +1,13 @@
 ---
 description: Diese Referenz enthält weitere Informationen zu den Tests, die Adobe Experience Platform Auditor für die Konfiguration durchführt.
-seo-description: Diese Referenz enthält weitere Informationen zu den Tests, die Adobe Experience Platform Auditor für die Konfiguration durchführt.
-seo-title: Konfiguration
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for configuration.
+seo-title: Configuration
 title: Konfiguration
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
 exl-id: e331d874-09f5-4a31-ad8c-6ee5d0849245
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '846'
+workflow-type: tm+mt
+source-wordcount: '830'
 ht-degree: 100%
 
 ---

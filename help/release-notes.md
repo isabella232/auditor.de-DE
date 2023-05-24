@@ -1,21 +1,20 @@
 ---
 description: Adobe Experience Platform Auditor – Versionshinweise
-seo-description: Adobe Experience Platform Auditor – Versionshinweise
-seo-title: Adobe Experience Platform Auditor – Versionshinweise
+seo-description: Adobe Experience Platform Auditor Release Notes
+seo-title: Adobe Experience Platform Auditor release notes
 title: Adobe Experience Platform Auditor – Versionshinweise
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
 exl-id: 7c8c55ed-6211-446b-9182-2e9b49dd117d
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '458'
+workflow-type: tm+mt
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform Auditor – Versionshinweise {#auditor-release-notes}
+# Adobe Experience Platform Auditor – Versionshinweise{#auditor-release-notes}
 
-## 5. Februar 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
+## 5. Februar 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
 
 **Verbesserung**
 
@@ -25,7 +24,7 @@ Die maximal zulässige Anzahl von Seiten bei einer Prüfung wurde von 100 auf 50
 >
 >Aufgrund dieser Erhöhung ist zum Durchführen einer Prüfung mehr Zeit erforderlich. In einigen Fällen kann es bis zu 48 Stunden dauern, um eine Prüfung für 500 Seiten durchzuführen.
 
-## 2. November 2018 {#section-542a32872efa445dab688285bf87964b}
+## 2. November 2018 {#section-542a32872efa445dab688285bf87964b}
 
 **Neue Funktionen**
 
